@@ -31,17 +31,15 @@ export const HeroBanner = () => {
                   zIndex: -1,
                 }}
               >
-                VirtualShip
+                Kinder Klimaat Concert Dag
               </Text>
               <br />
-              <Text as={'span'} color={'blue.400'}>
+              {/* <Text as={'span'} color={'blue.400'}>
                 Explore the ocean with a virtual research vessel
-              </Text>
+              </Text> */}
             </Heading>
             <Text fontSize={'lg'}>
-              <strong>VirtualShip</strong> provides a framework to plan and
-              conduct a virtual research expedition, receiving measurements as
-              if they were coming from actual oceanographic instruments.
+              Wij, Luna en Donna van Leeuwen, willen samen met heel veel andere kinderen en jongeren, met behulp van muziek en kunst onze stem laten horen voor het klimaat, voor onze toekomst.
             </Text>
           </Stack>
           <Stack flex={1} spacing={{ base: 10, md: 20 }}>
@@ -53,21 +51,6 @@ export const HeroBanner = () => {
               ></Image>
             }
 
-            <Stack
-              spacing={{ base: 4, sm: 6 }}
-              justify={'center'}
-              direction={{ base: 'column', sm: 'row' }}
-            >
-              <Button
-                useExternalIcon
-                as={Link}
-                variant={'outline'}
-                colorScheme={'blue'}
-                href='https://virtualship.readthedocs.io/en/latest/'
-              >
-                Get Started
-              </Button>
-            </Stack>
           </Stack>
         </Stack>
       </Container>

@@ -20,13 +20,12 @@ export const Funders = () => {
     <Box id={'funders'} as='section'>
       <Container maxW='container.lg' centerContent>
         <Heading as='h1' size='2xl'>
-          Funders
+          Ondersteuning
         </Heading>
 
         <Box my={8}>
           <Text fontSize={'lg'}>
-            VirtualShip development has been supported by the following
-            organisations:
+            De Kinder Klimaat Concert Dag wordt ondersteund door:
           </Text>
 
           <Grid
