@@ -45,8 +45,8 @@ export const HeroBanner = () => {
           <Stack flex={1} spacing={{ base: 10, md: 20 }}>
             {
               <Image
-                src={'/homepage_image.png'}
-                alt='Rendering of the new Dutch Research Vessel Anna Weber-van Bosse on a sea of data'
+                src={'/5lhrrQ0EVzWQAgyn.JPG'}
+                alt='Foto van Donna en Luna van Leeuwen met Viool en Cello. Foto door Alex Schröder'
                 objectFit='contain'
               ></Image>
             }
