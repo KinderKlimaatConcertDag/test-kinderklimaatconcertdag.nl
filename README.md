@@ -1,6 +1,6 @@
-# VirtualShip Website
+# KinderKlimaatConcertDag Website
 
-Website for the VirtualShip project.
+Website for the Kinder Klimaat Concert Dag.
 
 ## Overview
 
@@ -21,7 +21,7 @@ This project uses a combination of Javascript and Typescript (Javascript - as th
 ### 1. Clone the repository
 
 ```bash
-git clone git@github.com:OceanParcels/virtualship_website.git
+git clone git@github.com:KinderKlimaatConcertDag/kinderklimaatconcertdag.nl.git
 ```
 
 ### 2. Install dependencies
