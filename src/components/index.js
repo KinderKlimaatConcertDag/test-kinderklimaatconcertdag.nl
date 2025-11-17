@@ -1,5 +1,4 @@
 export { Banner } from '@/components/banner'
-export { Projects } from '@/components/projects'
 export { Funders } from '@/components/funders'
 export { Concert } from '@/components/concert'
 export { Footer } from '@/components/footer'

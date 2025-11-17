@@ -1,4 +1,4 @@
-import { Projects, Concert, HeroBanner, Funders } from '@/components'
+import { Concert, HeroBanner, Funders } from '@/components'
 import { VideoDemo } from '@/components/video-demo'
 
 import { Layout } from '@/components/layout'
@@ -16,7 +16,6 @@ export default function IndexPage() {
       <HeroBanner />
       <Concert />
       <VideoDemo />
-      {/* <Projects /> TODO uncomment when projects are ready */}
       <Funders />
     </Layout>
   )
