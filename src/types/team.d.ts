@@ -5,16 +5,17 @@ export interface TeamMemberLinks {
   [key: string]: string
 }
 
-export interface CurrentTeamMember {
+export interface OprichterTeamMember {
   name: string
-  position: string
-  description: string
   image: string
-  links?: TeamMemberLinks
 }
 
-export interface PriorTeamMember {
+export interface BestuurTeamMember {
   name: string
   position: string
-  links?: TeamMemberLinks
+}
+
+export interface OverigTeamMember {
+  name: string
+  position: string
 }

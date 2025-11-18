@@ -1,7 +1,7 @@
 import { Layout } from '@/components/layout'
 import { Image, Link } from '@/components/mdx'
 import { TeamMember } from '@/components/team-member'
-import { OprichterTeamMember, BestuurTeamMembers, OverigTeamMembers } from '@/data/team-members'
+import { OprichterTeamMembers, BestuurTeamMembers, OverigTeamMembers } from '@/data/team-members'
 import { Box, Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
 const UtrechtTeam = () => {
@@ -17,7 +17,7 @@ const UtrechtTeam = () => {
           </Heading>
 
           <Heading as='h2' size='xl' textAlign={'center'} mt={8} mb={4}>
-            Directie en initiafiefnemers
+            Directie en initiatiefnemers
           </Heading>
 
           <SimpleGrid
@@ -26,7 +26,7 @@ const UtrechtTeam = () => {
             my={4}
             align={'left'}
           >
-            {OprichterTeamMember.sort((a, b) => {
+            {OprichterTeamMembers.sort((a, b) => {
               const getLastName = (name) => name.split(' ').slice(-1)[0]
               return getLastName(a.name).localeCompare(getLastName(b.name))
             }).map((member) => (

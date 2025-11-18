@@ -1,6 +1,6 @@
-import { CurrentTeamMember, OprichterTeamMember, BestuurTeamMember } from '../types/team'
+import { OverigTeamMember, OprichterTeamMember, BestuurTeamMember } from '../types/team'
 
-export const OprichterTeamMember: OprichterTeamMember[] = [
+export const OprichterTeamMembers: OprichterTeamMember[] = [
   {
     name: 'Donna van Leeuwen',
     image: 'team/DonnavanLeeuwen.jpeg',
@@ -26,6 +26,7 @@ export const BestuurTeamMembers: BestuurTeamMember[] = [
   },
   {
     name: 'Ilonka Kolthof',
+    position: 'Bestuurslid',
   },
 ]
 

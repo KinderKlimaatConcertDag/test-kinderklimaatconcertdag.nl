@@ -29,9 +29,6 @@ export const Layout = ({
       ? 'https://kinderklimaatconcertdag.nl'
       : 'http://localhost:3000'
 
-  // Construct the full card URL
-  const fullCardUrl = card.startsWith('http') ? card : `${baseUrl}${card}`
-
   return (
     <>
       <Head>
@@ -39,11 +36,9 @@ export const Layout = ({
         <meta content='width=device-width, initial-scale=1' name='viewport' />
         <meta property='og:title' content={title} />
         <meta property='og:description' content={description} />
-        <meta property='og:image' content={fullCardUrl} />
         <meta property='og:url' content={url} />
         <meta name='twitter:title' content={title} />
         <meta name='twitter:description' content={description} />
-        <meta name='twitter:image' content={fullCardUrl} />
         <meta name='twitter:card' content='summary_large_image' />
         <link
           rel='icon'
