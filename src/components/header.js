@@ -77,9 +77,9 @@ export const Header = () => {
             >
               <ColorModeImage
                 w={48}
-                lightSrc={'/virtualship-assets/virtual_ship_logo.png'}
-                darkSrc={'/virtualship-assets/virtual_ship_logo_inverted.png'}
-                alt={'VirtualShip logo'}
+                lightSrc={'/assets/logo.png'}
+                darkSrc={'/assets/logo_inverted.png'}
+                alt={'KKCD logo'}
               />
             </Stack>
           </Flex>

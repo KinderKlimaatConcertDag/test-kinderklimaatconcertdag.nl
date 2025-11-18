@@ -19,23 +19,6 @@ const UtrechtTeam = () => {
             De Stichting Kinder Klimaat Concert Dag
           </Heading>
 
-          <Box py={4}>
-            <Text>
-
-              <b>Adresgegevens</b><p></p>
-
-              Bosuillaan 62, 3722XP Bilthoven<p></p>
-
-              http://kinderklimaatconcertdag.nl<p></p>
-
-              Kvk 97261734<p></p>
-
-              RSIN / fiscaal nummer: 867975209<p></p>
-
-              bank NL83 TRIO 0321 0861 98
-            </Text>
-          </Box>
-
           <Heading as='h2' size='xl' textAlign={'center'} mt={8} mb={4}>
             Directie en initiafiefnemers
           </Heading>
@@ -60,7 +43,7 @@ const UtrechtTeam = () => {
 
           <SimpleGrid
             columns={{ base: 1, md: 2, lg: 2, xl: 2, '2xl': 3 }}
-            spacing={8}
+            spacing={4}
             my={4}
             align={'left'}
           >
@@ -82,23 +65,39 @@ const UtrechtTeam = () => {
               <TeamMember key={member.name} member={member} />
             ))}
           </SimpleGrid>
-      <Box py={4}>
-        <Text>
-        De statuten zijn <a href="statuten.pdf">hier</a> te downloaden. KKCD committeert zich aan de naleving van de Code Cultural Governance.
+          <Box py={4} fontSize={'lg'}>
+            <Text>
+              De statuten van Stichting Kinder Klimaat Concert Dag (KKCD) zijn <a href="statuten.pdf"><u>hier</u></a> te downloaden. KKCD committeert zich aan de naleving van de Code Cultural Governance.
+            </Text>
+          </Box>
+          <Box py={4}>
+            <Text fontSize={'lg'}>
+              KKCD heeft de status van een culturele ANBI (Algemeen Nut Beogende Instelling) aangevraagd en verwacht deze binnenkort met terugwerkende kracht vanaf 14 mei 2025 te verkrijgen. Voor donateurs van culturele ANBI’s geldt een extra giftenaftrek. Particulieren mogen 1,25 keer het bedrag van de gift aftrekken in de aangifte inkomstenbelasting. Ondernemingen die onder de vennootschapsbelasting vallen, mogen 1,5 keer het bedrag van de gift aftrekken in de aangifte vennootschapsbelasting.
+            </Text>
+          </Box>
+          <Box py={4}>
+            <Text fontSize={'lg'}>
+              Beleidsplan: TODO
+            </Text>
+          </Box>
+          <Box py={4}>
+            <Text fontSize={'lg'}>
+              Vooralsnog ontvangt de directie maximaal 10% van de totale projectbegroting.
+            </Text>
+          </Box>
+          <Box py={4}>
+            <Text fontSize={'lg'}>
+              De bestuursleden en adviseur doen hun werk onbezoldigd. Zij krijgen desgewenst een vergoeding van de door hen gemaakte kosten.
+            </Text>
+          </Box>
 
-        <p></p>
-        KKCD heeft de status van een culturele ANBI (Algemeen Nut Beogende Instelling) aangevraagd en verwacht deze binnenkort met terugwerkende kracht vanaf 14 mei 2025 te verkrijgen. Voor donateurs van culturele ANBI’s geldt een extra giftenaftrek. Particulieren mogen 1,25 keer het bedrag van de gift aftrekken in de aangifte inkomstenbelasting. Ondernemingen die onder de vennootschapsbelasting vallen, mogen 1,5 keer het bedrag van de gift aftrekken in de aangifte vennootschapsbelasting.
+          <Box py={4}>
+            <Text fontSize={'lg'}>
+              <b>Adresgegevens</b><p></p>
+              Bosuillaan 62, 3722XP Bilthoven | Kvk 97261734 | RSIN 867975209 | bank NL83 TRIO 0321 0861 98
+            </Text>
+          </Box>
 
-        <p></p>
-        Beleidsplan: TODO
-
-        <p></p>
-        Vooralsnog ontvangt de directie maximaal 10% van de totale projectbegroting.
-
-        <p></p>
-        De bestuursleden en adviseur doen hun werk onbezoldigd. Zij krijgen desgewenst een vergoeding van de door hen gemaakte kosten.
-        </Text>
-      </Box>
         </Container>
       </Box>
 

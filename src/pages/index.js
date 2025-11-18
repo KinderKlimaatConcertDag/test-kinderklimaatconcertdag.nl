@@ -9,7 +9,7 @@ export default function IndexPage() {
       url={`/`}
       title={'Kinder Klimaat Concert Dag'}
       card={
-        'https://raw.githubusercontent.com/OceanParcels/oceanparcels_website/main/public/virtualship-assets/virtual_ship_logo_no-text.png'
+        'assets/logo_no-text.png'
       }
       // enableBanner
     >

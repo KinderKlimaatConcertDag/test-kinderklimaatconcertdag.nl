@@ -15,7 +15,7 @@ export const Layout = ({
   description,
   card,
   children,
-  url = 'https://virtualship.parcels-code.org',
+  url = 'https://kinderklimaatconcertdag.nl',
   enableBanner = false,
 }) => {
   // Track page views
@@ -23,17 +23,10 @@ export const Layout = ({
     ReactGA.send({ hitType: 'pageview' })
   }, [])
 
-  const bannerTitle =
-    'Join the Parcels 10 year anniversary event 🎉 on 1-3 Oct 2025!'
-  const bannerDescription = ''
-  const bannerChildren = (
-    <Link href='https://oceanparcels.org/10year-event'>Learn more</Link>
-  )
-
   // Determine the base URL based on the environment
   const baseUrl =
     process.env.NODE_ENV === 'production'
-      ? 'https://virtualship.parcels-code.org'
+      ? 'https://kinderklimaatconcertdag.nl'
       : 'http://localhost:3000'
 
   // Construct the full card URL
@@ -56,7 +49,7 @@ export const Layout = ({
           rel='icon'
           type='image/png'
           sizes='96x96'
-          href='/virtualship-assets/virtual_ship_logo_no-text.png'
+          href='/assets/logo_no-text.png'
         />
         <link rel='icon' type='image/svg+xml' href='/favicon.svg' />
         <link rel='icon' type='image/png' href='/favicon.png' />
