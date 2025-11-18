@@ -8,9 +8,6 @@ const UtrechtTeam = () => {
   return (
     <Layout
       title={'Bestuur'}
-      card={
-        'https://raw.githubusercontent.com/OceanParcels/oceanparcels_website/main/public/parcels-assets/logo-no-text.png'
-      }
       url={`/bestuur`}
     >
       <Box as='section' py={20}>

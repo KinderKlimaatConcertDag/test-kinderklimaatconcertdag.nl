@@ -64,7 +64,7 @@ export const Footer = () => {
                 w={32}
                 lightSrc={'/assets/logo.png'}
                 darkSrc={'/assets/logo_inverted.png'}
-                alt={'parcels logo'}
+                alt={'KinderKlimaatConcertDag logo'}
               />
             </Box>
 
