@@ -16,17 +16,28 @@ const UtrechtTeam = () => {
       <Box as='section' py={20}>
         <Container maxW='container.lg'>
           <Heading as='h1' size='2xl' textAlign={'center'}>
-            De Stichting KinderKlimaatConcertDag
+            De Stichting Kinder Klimaat Concert Dag
           </Heading>
 
           <Box py={4}>
             <Text>
-              De Stichting KinderKlimaatConcertDag is ...
+
+              <b>Adresgegevens</b><p></p>
+
+              Bosuillaan 62, 3722XP Bilthoven<p></p>
+
+              http://kinderklimaatconcertdag.nl<p></p>
+
+              Kvk 97261734<p></p>
+
+              RSIN / fiscaal nummer: 867975209<p></p>
+
+              bank NL83 TRIO 0321 0861 98
             </Text>
           </Box>
 
           <Heading as='h2' size='xl' textAlign={'center'} mt={8} mb={4}>
-            Oprichters
+            Directie en initiafiefnemers
           </Heading>
 
           <SimpleGrid
@@ -53,10 +64,7 @@ const UtrechtTeam = () => {
             my={4}
             align={'left'}
           >
-            {BestuurTeamMembers.sort((a, b) => {
-              const getLastName = (name) => name.split(' ').slice(-1)[0]
-              return getLastName(a.name).localeCompare(getLastName(b.name))
-            }).map((member) => (
+            {BestuurTeamMembers.map((member) => (
               <TeamMember key={member.name} member={member} />
             ))}
           </SimpleGrid>
