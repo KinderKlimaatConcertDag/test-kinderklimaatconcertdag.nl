@@ -33,10 +33,6 @@ export const HeroBanner = () => {
               >
                 Kinder Klimaat Concert Dag
               </Text>
-              <br />
-              {/* <Text as={'span'} color={'blue.400'}>
-                Explore the ocean with a virtual research vessel
-              </Text> */}
             </Heading>
             <Text fontSize={'lg'}>
               Wij, Luna en Donna van Leeuwen, willen samen met heel veel andere kinderen en jongeren, met behulp van muziek en kunst onze stem laten horen voor het klimaat, voor onze toekomst.
