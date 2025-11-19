@@ -20,12 +20,12 @@ export const Funders = () => {
     <Box id={'funders'} as='section'>
       <Container maxW='container.lg' centerContent>
         <Heading as='h1' size='2xl'>
-          Ondersteuning
+          Steun ons!
         </Heading>
 
         <Box my={8}>
           <Text fontSize={'lg'}>
-            De Kinder Klimaat Concert Dag wordt ondersteund door:
+            De Kinder Klimaat Concert Dag wordt ondersteund door vele donateurs. Wilt u ons ook steunen? Klik dan op de button hieronder!
           </Text>
 
           <Grid

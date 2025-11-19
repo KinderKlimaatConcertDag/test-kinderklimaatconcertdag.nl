@@ -1,5 +1,5 @@
 export const menuItems = [
   { label: 'Concert', href: '/#concert' },
-  { label: 'Ondersteuning', href: '/#funders' },
+  { label: 'Steun ons!', href: '/#funders' },
   { label: 'Stichting', href: '/stichting' },
 ]
