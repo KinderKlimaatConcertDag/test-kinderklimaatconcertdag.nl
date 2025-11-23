@@ -5,7 +5,7 @@ import { Image, Link } from '@/components/mdx'
 export const HeroBanner = () => {
   return (
     <Box as='section'>
-      <Container maxW='container.lg' py={24} centerContent>
+      <Container maxW='container.lg' pt={24} centerContent>
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
@@ -16,7 +16,7 @@ export const HeroBanner = () => {
             <Heading
               lineHeight={1.1}
               fontWeight={600}
-              fontSize={{ base: '3xl', sm: '4xl', lg: '6xl' }}
+              fontSize={{ base: '4xl', sm: '4xl', lg: '6xl' }}
             >
               <Text
                 as={'span'}
@@ -32,6 +32,10 @@ export const HeroBanner = () => {
                 }}
               >
                 Kinder Klimaat Concert Dag
+              </Text>
+              <br />
+              <Text as={'span'} color={'blue.400'}>
+                We mogen nog niet stemmen, maar luister vandaag naar ons
               </Text>
             </Heading>
             <Text fontSize={'lg'}>
