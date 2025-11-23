@@ -4,8 +4,11 @@ import React from 'react'
 
 export const VideoDemo = () => {
   return (
-    <Box id={'video-demo'} as='section' my={10}>
+    <Box id={'video-demo'} as='section' my={12}>
       <Container maxW='container.lg' centerContent>
+        <Heading as='h1' size='2xl' mb={4}>
+          {/* HEADING TOEVOEGEN? */}
+        </Heading>
         <Box
           w='100%'
           maxW='800px'

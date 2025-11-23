@@ -4,7 +4,7 @@ import { TeamMember } from '@/components/team-member'
 import { OprichterTeamMembers, BestuurTeamMembers, OverigTeamMembers } from '@/data/team-members'
 import { Box, Container, Heading, SimpleGrid, Text } from '@chakra-ui/react'
 
-const Team = () => {
+const UtrechtTeam = () => {
   return (
     <Layout
       title={'Bestuur'}
@@ -102,4 +102,4 @@ const Team = () => {
   )
 }
 
-export default Team
+export default UtrechtTeam
