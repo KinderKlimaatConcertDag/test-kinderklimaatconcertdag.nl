@@ -69,11 +69,6 @@ const UtrechtTeam = () => {
           </Box>
           <Box py={4}>
             <Text fontSize={'lg'}>
-              KKCD heeft de status van een culturele ANBI (Algemeen Nut Beogende Instelling) aangevraagd en verwacht deze binnenkort met terugwerkende kracht vanaf 14 mei 2025 te verkrijgen. Voor donateurs van culturele ANBI’s geldt een extra giftenaftrek. Particulieren mogen 1,25 keer het bedrag van de gift aftrekken in de aangifte inkomstenbelasting. Ondernemingen die onder de vennootschapsbelasting vallen, mogen 1,5 keer het bedrag van de gift aftrekken in de aangifte vennootschapsbelasting.
-            </Text>
-          </Box>
-          <Box py={4}>
-            <Text fontSize={'lg'}>
               Beleidsplan: TODO
             </Text>
           </Box>
