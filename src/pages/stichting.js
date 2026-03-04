@@ -10,7 +10,7 @@ const UtrechtTeam = () => {
       title={'Bestuur'}
       url={`/bestuur`}
     >
-      <Box as='section' py={20}>
+      <Box as='section' py={40}>
         <Container maxW='container.lg'>
           <Heading as='h1' size='2xl' textAlign={'center'}>
             De Stichting Kinder Klimaat Concert Dag
@@ -64,7 +64,12 @@ const UtrechtTeam = () => {
           </SimpleGrid>
           <Box py={4} fontSize={'lg'}>
             <Text>
-              De statuten van Stichting Kinder Klimaat Concert Dag (KKCD) zijn <a href="statuten.pdf"><u>hier</u></a> te downloaden. KKCD committeert zich aan de naleving van de Code Cultural Governance.
+              De stichting Kinder Klimaat Concert Dag is door de 	Belastingdienst aangemerkt als 'algemeen nut beogende instelling' (ANBI).
+            </Text>
+          </Box>
+          <Box py={4} fontSize={'lg'}>
+            <Text>
+              De statuten van Stichting Kinder Klimaat Concert Dag (KKCD) zijn <Link href="/statuten.pdf" textDecoration={'underline'}>hier</Link> te downloaden. KKCD committeert zich aan de naleving van de Code Cultural Governance.
             </Text>
           </Box>
           <Box py={4}>
@@ -86,7 +91,9 @@ const UtrechtTeam = () => {
 
           <Box py={4}>
             <Text fontSize={'lg'}>
-              <b>Adresgegevens</b><p></p>
+              <Text as='span' fontWeight={'bold'}>Adresgegevens</Text>
+            </Text>
+            <Text fontSize={'lg'}>
               Bosuillaan 62, 3722XP Bilthoven | Kvk 97261734 | RSIN 867975209 | bank NL83 TRIO 0321 0861 98
             </Text>
           </Box>

@@ -2,8 +2,16 @@ export const footerItems = {
 
   evenement: [
     {
-      label: 'De KinderKlimaatConcertDag 2026',
-      href: '',
+      label: 'Editie 2026',
+      href: '/#concert',
+    },
+    {
+      label: 'Partners',
+      href: '/#partners',
+    },
+    {
+      label: 'Media',
+      href: '/#media',
     },
   ],
 
@@ -11,6 +19,14 @@ export const footerItems = {
     {
       label: 'Bestuur',
       href: 'stichting',
+    },
+    {
+      label: 'Oprichters',
+      href: 'oprichters',
+    },
+    {
+      label: 'Steun ons',
+      href: '/#funders',
     },
   ],
 }

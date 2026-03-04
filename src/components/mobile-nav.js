@@ -34,14 +34,16 @@ const MobileNavItem = ({ href, children, label }) => {
         }}
       >
         <Text
+          fontFamily={'heading'}
           fontWeight={600}
-          color={useColorModeValue('gray.600', 'gray.200')}
+          color={useColorModeValue('black', 'white')}
         >
           {label}
         </Text>
         {children && (
           <Icon
             as={ChevronDownIcon}
+            color={useColorModeValue('black', 'white')}
             transition={'all .25s ease-in-out'}
             transform={isOpen ? 'rotate(180deg)' : ''}
             w={6}
@@ -62,7 +64,13 @@ const MobileNavItem = ({ href, children, label }) => {
           {' '}
           {children &&
             children.map((child, index) => (
-              <Link key={index} href={child.href ?? '#'} py={2}>
+              <Link
+                key={index}
+                href={child.href ?? '#'}
+                py={2}
+                fontFamily={'heading'}
+                color={useColorModeValue('black', 'white')}
+              >
                 {child.label}
               </Link>
             ))}

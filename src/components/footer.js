@@ -49,8 +49,8 @@ const ListHeader = ({ children }) => {
 export const Footer = () => {
   return (
     <Box
-      bg={useColorModeValue('gray.50', 'gray.900')}
-      color={useColorModeValue('gray.700', 'gray.200')}
+      bg={'#eec216'}
+      color={'gray.900'}
       as='footer'
     >
       <Container maxW='container.lg' my={8} centerContent>
@@ -62,8 +62,8 @@ export const Footer = () => {
             <Box>
               <ColorModeImage
                 w={32}
-                lightSrc={'/assets/logo.png'}
-                darkSrc={'/assets/logo_inverted.png'}
+                lightSrc={'/assets/KKCD_Logo_rgb_blauw.png'}
+                darkSrc={'/assets/KKCD_Logo_diap.png'}
                 alt={'KinderKlimaatConcertDag logo'}
               />
             </Box>
@@ -81,7 +81,7 @@ export const Footer = () => {
                   key={item.label}
                   href={item.href}
                   fontSize={'sm'}
-                  _hover={{ color: 'blue.500' }}
+                  _hover={{ color: 'black' }}
                 >
                   {item.label}
                 </Link>
@@ -96,7 +96,7 @@ export const Footer = () => {
                   key={item.label}
                   href={item.href}
                   fontSize={'sm'}
-                  _hover={{ color: 'blue.500' }}
+                  _hover={{ color: 'black' }}
                 >
                   {item.label}
                 </Link>
