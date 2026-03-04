@@ -34,8 +34,9 @@ const MobileNavItem = ({ href, children, label }) => {
         }}
       >
         <Text
+          fontFamily={'heading'}
           fontWeight={600}
-          color={useColorModeValue('gray.600', 'gray.200')}
+          color={'black'}
         >
           {label}
         </Text>
@@ -62,7 +63,7 @@ const MobileNavItem = ({ href, children, label }) => {
           {' '}
           {children &&
             children.map((child, index) => (
-              <Link key={index} href={child.href ?? '#'} py={2}>
+              <Link key={index} href={child.href ?? '#'} py={2} fontFamily={'heading'} color={'black'}>
                 {child.label}
               </Link>
             ))}

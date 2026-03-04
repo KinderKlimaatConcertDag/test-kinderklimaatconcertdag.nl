@@ -72,6 +72,7 @@ export const Header = () => {
               as={Link}
               href={'/'}
               direction={'row'}
+              fontFamily={'heading'}
               alignItems={'center'}
               spacing={{ base: 2, sm: 4 }}
             >

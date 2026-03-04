@@ -23,13 +23,12 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 p={2}
                 href={navItem.href ?? '/#'}
                 fontSize={'sm'}
+                fontFamily={'heading'}
                 fontWeight={'bold'}
-                // eslint-disable-next-line react-hooks/rules-of-hooks
-                color={useColorModeValue('gray.600', 'gray.200')}
+                color={'black'}
                 _hover={{
                   textDecoration: 'none',
-                  // eslint-disable-next-line react-hooks/rules-of-hooks
-                  color: useColorModeValue('gray.800', 'white'),
+                  color: 'black',
                 }}
               >
                 {navItem.label}
@@ -74,8 +73,10 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: 'blue.400' }}
+            _groupHover={{ color: 'black' }}
+            fontFamily={'heading'}
             fontWeight={500}
+            color={'black'}
           >
             {label}
           </Text>

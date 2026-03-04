@@ -10,7 +10,7 @@ const config = {
 
 const fonts = {
   body: "'Inter Variable', -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol'",
-  heading: "'Inter Variable', 'Work Sans', system-ui, sans-serif",
+  heading: "'Champ Black', 'Inter Variable', 'Work Sans', system-ui, sans-serif",
 }
 
 export const customTheme = extendTheme(
@@ -20,6 +20,13 @@ export const customTheme = extendTheme(
     fonts: fonts,
     styles: {
       global: {
+        '@font-face': {
+          fontFamily: 'Champ Black',
+          src: "url('/fonts/Champ-Black.otf') format('opentype')",
+          fontWeight: '900',
+          fontStyle: 'normal',
+          fontDisplay: 'swap',
+        },
         html: { scrollBehavior: 'smooth' },
       },
     },
