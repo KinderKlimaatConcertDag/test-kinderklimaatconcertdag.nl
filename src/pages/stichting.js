@@ -72,6 +72,7 @@ const UtrechtTeam = () => {
               Beleidsplan: TODO
             </Text>
           </Box>
+
           <Box py={4}>
             <Text fontSize={'lg'}>
               Vooralsnog ontvangt de directie maximaal 10% van de totale projectbegroting.
