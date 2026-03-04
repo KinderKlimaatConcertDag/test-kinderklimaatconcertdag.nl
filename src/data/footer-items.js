@@ -9,6 +9,10 @@ export const footerItems = {
       label: 'Partners',
       href: '/#partners',
     },
+    {
+      label: 'Media',
+      href: '/#media',
+    },
   ],
 
   stichting: [
@@ -19,6 +23,10 @@ export const footerItems = {
     {
       label: 'Oprichters',
       href: 'oprichters',
+    },
+    {
+      label: 'Steun ons',
+      href: '/#funders',
     },
   ],
 }
