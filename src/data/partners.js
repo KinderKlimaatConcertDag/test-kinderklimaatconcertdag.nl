@@ -2,7 +2,7 @@ export const Partners = [
   {
     name: 'Nationale Jeugd Orkesten Nederland',
     logo_light: '/partners-logos/njon_logo.svg',
-    logo_dark: '/partners-logos/njon_logo_dark.svg',
+    logo_dark: '/partners-logos/njon_logo.svg',
     url: 'https://www.njon.nl',
   },
   {

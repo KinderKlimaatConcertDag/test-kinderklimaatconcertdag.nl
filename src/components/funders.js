@@ -28,7 +28,7 @@ export const Funders = () => {
             De organisatie van de Kinder Klimaat Concert Dag is altijd op zoek naar vrienden die ons idee willen ondersteunen. Met iedere gift zijn wij al geholpen, want het neerzetten van een dergelijk evenement is een grote investering. Wilt u financieel of op een andere manier bijdragen aan de ontwikkeling en naamsbekendheid van ons ambitieuze plan? Neem dan contact met ons op via Kinderklimaatconcertdag@gmail.com.
           </Text>
 
-          <Grid
+          {/* <Grid
             templateColumns={`repeat(${funders.length}, minmax(auto, max-content))`}
             gap={6}
             my={4}
@@ -56,7 +56,7 @@ export const Funders = () => {
                 </GridItem>
               </Tooltip>
             ))}
-          </Grid>
+          </Grid> */}
         </Box>
       </Container>
     </Box>
