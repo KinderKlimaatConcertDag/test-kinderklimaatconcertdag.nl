@@ -1,4 +1,4 @@
-import { Box, Container } from '@chakra-ui/react'
+import { Box, Container, Image } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 import React from 'react'
 
@@ -23,6 +23,17 @@ export const Media= () => {
             title='Kinder Klimaat Concert Dag pitch'
             allowFullScreen
           ></iframe>
+        </Box>
+
+        <Box mt={8}>
+          <Image
+            src='/posters/KKCD_Posters_A4_1.jpg'
+            alt='Kinder Klimaat Concert Dag poster'
+            w='100%'
+            maxW='800px'
+            borderRadius='lg'
+            boxShadow='md'
+          />
         </Box>
       </Container>
     </Box>
