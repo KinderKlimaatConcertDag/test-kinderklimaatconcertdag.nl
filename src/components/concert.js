@@ -11,29 +11,27 @@ import { Heading } from '@/components/mdx'
 export const Concert = () => {
   return (
     <Box id={'concert'} as='section'>
-      <Container maxW='container.lg' centerContent>
+      <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
-          Kinder Klimaat Concert Dag, de eerste editie
+          Editie 2026
         </Heading>
-        <Text fontSize={'lg'} pb={5}>
-          Op <b>zondag 27 september 2026</b> organiseren we de eerste Kinder Klimaat Concert Dag in TivoliVredenburg in Utrecht. Met deze eerste editie willen wij een jaarlijkse traditie starten waarin kinderen door het samenbrengen van muziek, kunst en wetenschap hun stem laten horen voor het klimaat.
-        </Text>
-        <Text fontSize={'lg'} pb={5}>
-          De precieze invulling van de dag is nog niet bekend, maar er zal een concert worden gegeven in de Hertz zaal, waar wij samen met andere kinderen, orkesten, jazzbands en andere groepen op zullen treden. Kinderen die geen instrument bespelen kunnen meedoen met een tekening of een gedicht.
-        </Text>
-        <Text fontSize={'lg'} pb={5}>
-          Ook worden milieuwetenschappers en vertegenwoordigers uit de politiek en het bedrijfsleven uitgenodigd. Aan hen wordt gevraagd om als “plus one” een kind of jongere uit hun familie of omgeving mee te nemen.
-        </Text>
-        <Text fontSize={'lg'} pb={5}>
-          De concertzaal zal zo hopelijk gevuld zijn met de mensen die op dit moment het beleid maken, en zij die de gevolgen hiervan zullen merken. Verder worden in de foyers onderzoeken gepresenteerd die middelbare scholieren hebben gedaan, samen met het de leerlingen van het {' '}
-          <Link
-            href='https://u-talent.nl'
-            color='blue.500'
-            isExternal
-          >
-            U-Talent programma
-          </Link>{' '}
-          bij de Universiteit Utrecht.
+        <Text fontSize={'lg'} pb={5} whiteSpace={'pre-line'}>
+          {`De eerste editie van de Kinder Klimaat Concert Dag vindt plaats in Utrecht op zondag 27 september 2026 in TivoliVredenburg.
+
+Tijdens de avondvoorstelling  “Behoud onze seizoenen!” zorgen muziek, dans en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen wisselen elkaar af.
+
+LOCATIE: Hertz zaal Vredenburg, Utrecht
+AANVANG: NTB
+
+Na de voorstelling presenteren middelbare scholieren uit de regio Utrecht hun eigen onderzoeken over het klimaat.
+LOCATIE: Punt foyer TivoliVredenburg, Utrecht
+AANVANG: NTB
+
+De randprogrammering komt tot stand in samenwerking met de Universiteit Utrecht.
+
+Kaarten: Koop je kaartjes via de kassa van TivoliVredenburg
+
+Voor de voorstelling kunnen kinderen hùn vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.`}
         </Text>
 
       </Container>

@@ -18,14 +18,14 @@ export const Funders = () => {
   const funders = React.useMemo(() => data, [])
   return (
     <Box id={'funders'} as='section'>
-      <Container maxW='container.lg' centerContent>
+      <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
           Steun ons!
         </Heading>
 
         <Box my={8}>
           <Text fontSize={'lg'}>
-            De Kinder Klimaat Concert Dag wordt ondersteund door vele donateurs. Wilt u ons ook steunen? Klik dan op de button hieronder!
+            De organisatie van de Kinder Klimaat Concert Dag is altijd op zoek naar vrienden die ons idee willen ondersteunen. Met iedere gift zijn wij al geholpen, want het neerzetten van een dergelijk evenement is een grote investering. Wilt u financieel of op een andere manier bijdragen aan de ontwikkeling en naamsbekendheid van ons ambitieuze plan? Neem dan contact met ons op via Kinderklimaatconcertdag@gmail.com.
           </Text>
 
           <Grid

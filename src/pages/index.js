@@ -1,7 +1,7 @@
-import { Concert, HeroBanner, Funders } from '@/components'
-import { VideoDemo } from '@/components/video-demo'
+import { Concert, HeroBanner, Funders, HoeHetBegon, Partners } from '@/components'
 
 import { Layout } from '@/components/layout'
+import { Media } from '@/components/media'
 
 export default function IndexPage() {
   return (
@@ -14,8 +14,10 @@ export default function IndexPage() {
       // enableBanner
     >
       <HeroBanner />
+      <HoeHetBegon />
       <Concert />
-      <VideoDemo />
+      <Media />
+      <Partners />
       <Funders />
     </Layout>
   )

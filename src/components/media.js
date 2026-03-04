@@ -2,10 +2,13 @@ import { Box, Container } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 import React from 'react'
 
-export const VideoDemo = () => {
+export const Media= () => {
   return (
-    <Box id={'video-demo'} as='section' my={10}>
-      <Container maxW='container.lg' centerContent>
+    <Box id={'video'} as='section' my={10}>
+      <Container maxW='container.lg'>
+        <Heading as='h1' size='2xl'>
+          Media
+        </Heading>
         <Box
           w='100%'
           maxW='800px'

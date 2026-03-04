@@ -5,7 +5,7 @@ import { Image, Link } from '@/components/mdx'
 export const HeroBanner = () => {
   return (
     <Box as='section'>
-      <Container maxW='container.lg' pt={24} centerContent>
+      <Container maxW='container.lg' pt={24}>
         <Stack
           align={'center'}
           spacing={{ base: 8, md: 10 }}
@@ -35,7 +35,8 @@ export const HeroBanner = () => {
               </Text>
               <br />
               <Text as={'span'} color={'blue.400'}>
-                We mogen nog niet stemmen, maar luister vandaag naar ons
+                Luister… <br></br>voor onze toekomst
+
               </Text>
             </Heading>
           </Stack>
@@ -51,13 +52,16 @@ export const HeroBanner = () => {
           </Stack>
         </Stack>
         <Text fontSize={'lg'} py={5}>
-          Wij zijn <b>Luna en Donna</b>, twee jonge musici met een groot hart voor muziek én voor het klimaat. Vanuit die combinatie ontstond ons idee om een nationale Kinder Klimaat Concert Dag te organiseren: een dag waarop kinderen en jongeren uit heel Nederland hun stem laten horen door middel van muziek, kunst en wetenschap.
+          De Kinder Klimaat Concert dag is een nationale dag waarop het perspectief van kinderen en jongeren op klimaatverandering centraal staat. De kracht van kinderen is dat ze een open blik hebben en eerlijke vragen stellen. Juist door hun kwetsbaarheid kunnen ze mensen aan het denken zetten.
         </Text>
         <Text fontSize={'lg'} pb={5}>
-          Ons plan groeide letterlijk aan de keukentafel. We voelen hoop over wat wij als generatie nog kunnen doen om de aarde te beschermen, maar ook machteloosheid over hoe weinig invloed we nu hebben. Kinderen mogen nog niet stemmen, maar de beslissingen die vandaag worden genomen, bepalen wél onze toekomst.
+          De kracht die kinderen hebben als ze zich uiten in muziek en kunst is uniek. De Kinder Klimaat Concert Dag geeft 1 dag in het jaar kinderen en jongeren een platform om op hun manier op te komen voor hun toekomst, door muziek te maken, te tekenen, te dansen en te dichten.
         </Text>
-        <Text fontSize={'lg'}>
-          Met deze dag willen we laten zien dat bezorgdheid ook op een positieve, verbindende manier kan worden geuit. Niet door boos te zijn, maar door iets te laten horen wat iedereen kan raken: muziek.
+        <Text fontSize={'lg'} pb={5}>
+          Positief en hoopvol.
+        </Text>
+        <Text fontSize={'lg'} pb={5}>
+          Voor kinderen gaat het klimaat nog niet over voor- en tegenstanders van beleid. De Stichting Kinder Klimaat Concert Dag is volledig onafhankelijk en niet verbonden met politieke partijen. Wel werken we samen met culturele partners.
         </Text>
       </Container>
     </Box>

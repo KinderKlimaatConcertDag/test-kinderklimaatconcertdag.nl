@@ -64,6 +64,11 @@ const UtrechtTeam = () => {
           </SimpleGrid>
           <Box py={4} fontSize={'lg'}>
             <Text>
+              De stichting Kinder Klimaat Concert Dag is door de 	Belastingdienst aangemerkt als 'algemeen nut beogende instelling' (ANBI).
+            </Text>
+          </Box>
+          <Box py={4} fontSize={'lg'}>
+            <Text>
               De statuten van Stichting Kinder Klimaat Concert Dag (KKCD) zijn <a href="statuten.pdf"><u>hier</u></a> te downloaden. KKCD committeert zich aan de naleving van de Code Cultural Governance.
             </Text>
           </Box>
