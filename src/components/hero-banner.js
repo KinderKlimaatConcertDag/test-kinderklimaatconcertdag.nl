@@ -1,5 +1,6 @@
 import { Box, Button, Container, Heading, Stack, Text } from '@chakra-ui/react'
 
+import { ColorModeImage } from '@/components/ColorModeImage'
 import { Image, Link } from '@/components/mdx'
 
 export const HeroBanner = () => {
@@ -14,20 +15,22 @@ export const HeroBanner = () => {
         >
           <Stack flex={1} spacing={{ base: 10, md: 20 }}>
             {
-              <Image
-                src={'/assets/KKCD_Logo_rgb_blauw.png'}
-                alt='Luister voor onze toekomst'
+              <ColorModeImage
+                lightSrc={'/assets/KKCD_Logo_rgb_blauw.png'}
+                darkSrc={'/assets/KKCD_Logo_diap.png'}
+                alt='Kinder Klimaat Concert Dag'
                 objectFit='contain'
-              ></Image>
+              />
             }
           </Stack>
           <Stack flex={1} spacing={{ base: 10, md: 20 }}>
             {
-              <Image
-                src={'/assets/KKCD_Payoff_zww.png'}
+              <ColorModeImage
+                lightSrc={'/assets/KKCD_Payoff_zww.png'}
+                darkSrc={'/assets/KKCD_Payoff_diap.png'}
                 alt='Luister voor onze toekomst'
                 objectFit='contain'
-              ></Image>
+              />
             }
 
           </Stack>
