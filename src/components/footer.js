@@ -2,7 +2,7 @@ import {
   Box,
   Button,
   Container,
-  SimpleGrid,
+  Grid,
   Stack,
   Text,
   useColorModeValue,
@@ -54,10 +54,10 @@ export const Footer = () => {
       as='footer'
     >
       <Container maxW='container.lg' my={8}>
-        <SimpleGrid
+        <Grid
           w='100%'
-          columns={{ base: 1, sm: 1, md: 3 }}
-          spacing={{ base: 4, md: 8 }}
+          templateColumns={{ base: '1fr', sm: '1fr', md: '2fr 1fr 1fr' }}
+          gap={{ base: 4, md: 8 }}
         >
           <Stack spacing={8}>
             <Box>
@@ -104,7 +104,7 @@ export const Footer = () => {
               )
             })}
           </Stack>
-        </SimpleGrid>
+        </Grid>
       </Container>
     </Box>
   )
