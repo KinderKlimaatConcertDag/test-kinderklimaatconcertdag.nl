@@ -36,6 +36,7 @@ const MobileNavItem = ({ href, children, label }) => {
         <Text
           fontFamily={'heading'}
           fontWeight={600}
+          whiteSpace={'nowrap'}
           color={useColorModeValue('black', 'white')}
         >
           {label}
@@ -69,6 +70,7 @@ const MobileNavItem = ({ href, children, label }) => {
                 href={child.href ?? '#'}
                 py={2}
                 fontFamily={'heading'}
+                whiteSpace={'nowrap'}
                 color={useColorModeValue('black', 'white')}
               >
                 {child.label}

@@ -25,6 +25,8 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 fontSize={'sm'}
                 fontFamily={'heading'}
                 fontWeight={'bold'}
+                whiteSpace={'nowrap'}
+                flexShrink={0}
                 color={useColorModeValue('black', 'white')}
                 _hover={{
                   textDecoration: 'none',
