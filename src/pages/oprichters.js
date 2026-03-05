@@ -60,7 +60,7 @@ const Oprichters = () => {
         </Heading>
         <Box py={5} position='relative'>
           <Image
-            src='/team/DonnaVanLeeuwen.jpeg'
+            src='/team/DonnavanLeeuwen.jpeg'
             alt='Donna van Leeuwen'
             position={{ base: 'static', md: 'absolute' }}
             top={0}
