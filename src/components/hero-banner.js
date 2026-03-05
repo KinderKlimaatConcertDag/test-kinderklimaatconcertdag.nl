@@ -44,6 +44,17 @@ export const HeroBanner = () => {
         <Text fontSize={'lg'} pb={5}>
           Voor kinderen gaat het klimaat nog niet over voor- en tegenstanders van beleid. De Stichting Kinder Klimaat Concert Dag is volledig onafhankelijk en niet verbonden met politieke partijen. Wel werken we samen met culturele partners.
         </Text>
+        <Box mt={8} display='flex' justifyContent='center'>
+          <Image
+            src='/posters/KKCD_Posters_A4_6.jpg'
+            alt='Kinder Klimaat Concert Dag poster'
+            w='100%'
+            maxW='800px'
+            mx='auto'
+            borderRadius='lg'
+            boxShadow='md'
+          />
+        </Box>
       </Container>
     </Box>
   )
