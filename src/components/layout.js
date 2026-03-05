@@ -40,13 +40,9 @@ export const Layout = ({
         <meta name='twitter:title' content={title} />
         <meta name='twitter:description' content={description} />
         <meta name='twitter:card' content='summary_large_image' />
-        <link
-          rel='icon'
-          type='image/png'
-          sizes='96x96'
-          href='/assets/KKCD_Vignet-Blaadje_rgb_blauw.png'
-        />
-        <link rel='icon' type='image/png' href='/favicon.png' />
+        <link rel='icon' type='image/png' sizes='32x32' href='/favicon-32x32.png' />
+        <link rel='shortcut icon' href='/favicon.ico' />
+        <link rel='apple-touch-icon' sizes='180x180' href='/apple-touch-icon.png' />
 
         <title>{title}</title>
       </Head>
