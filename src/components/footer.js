@@ -53,12 +53,13 @@ export const Footer = () => {
       color={'gray.900'}
       as='footer'
     >
-      <Container maxW='container.lg' my={8} centerContent>
+      <Container maxW='container.lg' my={8}>
         <SimpleGrid
-          columns={{ base: 1, sm: 2, md: 4 }}
-          spacing={{ base: 2, md: 8 }}
+          w='100%'
+          columns={{ base: 1, sm: 1, md: 3 }}
+          spacing={{ base: 4, md: 8 }}
         >
-          <Stack spacing={6}>
+          <Stack spacing={8}>
             <Box>
               <ColorModeImage
                 w={32}
@@ -69,11 +70,11 @@ export const Footer = () => {
             </Box>
 
             <Text fontSize={'sm'}>
-              © Kinder Klimaat Concert Dag, {new Date().getFullYear()}. Apache 2.0
-              Licensed.
+              © {new Date().getFullYear()}, Stichting Kinder Klimaat Concert Dag. <br />
+              Apache 2.0 Licensed.
             </Text>
           </Stack>
-          <Stack align={'flex-start'}>
+          <Stack align={'flex-start'} justifySelf={{ base: 'start', md: 'end' }}>
             <ListHeader>Het evenement</ListHeader>
             {footerItems.evenement.map((item) => {
               return (
@@ -88,7 +89,7 @@ export const Footer = () => {
               )
             })}
           </Stack>
-          <Stack align={'flex-start'}>
+          <Stack align={'flex-start'} justifySelf={{ base: 'start', md: 'end' }}>
             <ListHeader>Stichting</ListHeader>
             {footerItems.stichting.map((item) => {
               return (
