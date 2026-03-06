@@ -14,11 +14,11 @@ export default function IndexPage() {
       // enableBanner
     >
       <HeroBanner />
-      <HoeHetBegon />
       <Concert />
-      <Media />
+      <HoeHetBegon />
+      {/* <Media /> */}
       <Partners />
-      <Funders />
+      {/* <Funders /> */}
     </Layout>
   )
 }

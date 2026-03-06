@@ -19,14 +19,14 @@ export const Partners = () => {
   return (
     <Box id={'partners'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl'>
+        <Heading as='h1' size='xl' textAlign='center'>
           Partners
         </Heading>
 
         <Box my={8}>
-          <Text fontSize={'lg'}>
-            De stichting Kinder Klimaat Concert Dag werkt samen met diverse partners:
-          </Text>
+          {/* <Text fontSize={'lg'}>
+            De stichting Kinder Klimaat Concert Dag werkt met deze partners samen:
+          </Text> */}
 
           <Grid
             templateColumns={`repeat(${partners.length}, minmax(auto, max-content))`}

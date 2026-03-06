@@ -14,7 +14,7 @@ const Oprichters = () => {
         <Heading as='h1' size='2xl'>
           De oprichters
         </Heading>
-        <Heading as='h2' size='xl' pb={8} pt={4}>
+        <Heading as='h2' size='xl' pb={8} pt={4} id='luna-van-leeuwen'>
             Luna van Leeuwen
         </Heading>
         <Box py={5} position='relative'>
@@ -47,7 +47,7 @@ const Oprichters = () => {
             Luna genoot haar opleiding bij Koosje van Haeringen aan de jong talentklas van het Koninklijk Conservatorium en studeerde daarna bij Veselina Manikova en Stephan Picard aan de Hanns Eisler Hochschule für Musik in Berlijn.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Luna zet zich in voor het klimaat als initiatiefnemer, samen met haar zusje Donna (cello), van de Kinder Klimaat Concert Dag, waar kinderen en jongeren via muziek op een positieve manier aandacht vragen voor het klimaat. De eerste editie zal plaatsvinden op 27 september 2026 in TivoliVredenburg.
+            Luna zet zich in voor het klimaat als initiatiefnemer, samen met haar zus Donna (cello), van de Kinder Klimaat Concert Dag, waar kinderen en jongeren via muziek op een positieve manier aandacht vragen voor het klimaat. De eerste editie zal plaatsvinden op 27 september 2026 in TivoliVredenburg.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
             Luna speelt op een Johannes Cuypers uit 1801 en woont in Berlijn.
@@ -79,10 +79,10 @@ const Oprichters = () => {
             Ze studeerde cello bij Lenian Benjamins en daarna bij Jan Ype Nota op het Jong Koninklijk Conservatorium. Donna werd al jong uitgenodigd voor bijzondere concerten. Ze gaf haar eerste recital op 13-jarige leeftijd in de Westerkerk, waar ze o.a. de gehele eerste cellosuite van Bach en Bruch’s Kol Nidrei met orgel uitvoerde. Verder speelde ze op de Kinderdodenherdenking en het Kinderprinsengrachtconcert. Tijdens het Grachtenfestival soleerde ze in Haydn’s concert in C, uitgezonden door NPO Start. Ook verscheen ze als “Jonge Held” bij Podium Klassiek. Donna heeft prijzen gewonnen op diverse nationale cello en muziek concoursen (1ste prijs Britten concours en publieksprijs), het Prinses Christina Concours en was finalist in het Koninklijk Concertgebouw Concours.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Donna heeft naast de liefde voor muziek veel plezier in debatteren en wetenschap. Ze stond in de finale van de Oxford Summer Boarding School Debate Contest. Verder volgde ze het honours science programma U-talent van de Universiteit Utrecht. Na haar eindexamen VWO (cum laude) combineert ze een studie Economie (Erasmus University College) met celloactiviteiten.cello activiteiten. Zo is ze aanvoerder van de cello groep in het Jeugd Orkest Nederland.
+            Donna heeft naast de liefde voor muziek veel plezier in debatteren en wetenschap. Ze stond in de finale van de Oxford Summer Boarding School Debate Contest. Verder volgde ze het honours science programma U-talent van de Universiteit Utrecht. Na haar eindexamen VWO (cum laude) combineert ze een studie Economie (Erasmus University College) met celloactiviteiten. Zo is ze aanvoerder van de cello groep in het Jeugd Orkest Nederland.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Donna zet zich in voor het klimaat als initiatiefnemer, samen met haar zusje Luna (viool), van de Kinder Klimaat Concert Dag, waar kinderen en jongeren via muziek op een positieve manier aandacht vragen voor het klimaat. De eerste editie zal plaatsvinden op 27 september 2026 in TivoliVredenburg.
+            Donna zet zich in voor het klimaat als initiatiefnemer, samen met haar zus Luna (viool), van de Kinder Klimaat Concert Dag, waar kinderen en jongeren via muziek op een positieve manier aandacht vragen voor het klimaat. De eerste editie zal plaatsvinden op 27 september 2026 in TivoliVredenburg.
           </Text>
           </Text>
         </Box>

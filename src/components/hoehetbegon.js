@@ -9,6 +9,7 @@ import {
 } from '@chakra-ui/react'
 import { CheckCircleIcon } from '@chakra-ui/icons'
 import React from 'react'
+import NextLink from 'next/link'
 
 import { Heading, Image } from '@/components/mdx'
 import Head from 'next/head'
@@ -17,7 +18,7 @@ export const HoeHetBegon = () => {
   return (
     <Box id={'hoehetbegon'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl'>
+        <Heading as='h1' size='2xl' color='#62afa8'>
           Hoe het begon
         </Heading>
         <Text>
@@ -25,7 +26,7 @@ export const HoeHetBegon = () => {
             Van keukentafel idee tot de eerste nationale Kinder Klimaat Concert Dag.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
-            Al vanaf heel jonge leeftijd merkten wij, Luna (viool) en Donna (cello), dat we tijdens concerten die wij gaven mensen konden ontroeren.
+            Al vanaf heel jonge leeftijd merkten wij, <Link as={NextLink} href='/oprichters#luna-van-leeuwen'>Luna</Link> (viool) en Donna (cello), dat we tijdens concerten die wij gaven mensen konden ontroeren.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>
             We vroegen ons af: kunnen we deze kracht niet inzetten om iets te bereiken wat ons al jaren bezighoudt: <Text as='span' fontWeight='bold'>klimaatverandering</Text>.
@@ -38,7 +39,7 @@ export const HoeHetBegon = () => {
           </Text>
         </Text>
 
-        <Heading as='h2'>
+        <Heading as='h2' color='#62afa8'>
             Mijlpalen:
         </Heading>
         <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
@@ -67,7 +68,7 @@ export const HoeHetBegon = () => {
             Januari 2026: Nominatie voor de Young Impact Award 2026 in de categorie Klimaat.
           </ListItem>
         </UnorderedList>
-        <Box mt={8} w='100%'>
+        {/* <Box mt={8} w='100%'>
           <Image
             src='/posters/KKCD_Posters_A4_4.jpg'
             alt='Kinder Klimaat Concert Dag poster'
@@ -76,7 +77,7 @@ export const HoeHetBegon = () => {
             borderRadius='lg'
             boxShadow='md'
           />
-        </Box>
+        </Box> */}
 
       </Container>
     </Box>

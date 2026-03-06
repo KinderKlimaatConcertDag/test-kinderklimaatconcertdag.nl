@@ -90,7 +90,7 @@ export const Footer = () => {
             })}
           </Stack>
           <Stack align={'flex-start'} justifySelf={{ base: 'start', md: 'end' }}>
-            <ListHeader>Stichting</ListHeader>
+            <ListHeader>Over ons</ListHeader>
             {footerItems.stichting.map((item) => {
               return (
                 <Link

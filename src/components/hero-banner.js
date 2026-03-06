@@ -5,7 +5,7 @@ import { Image, Link } from '@/components/mdx'
 
 export const HeroBanner = () => {
   return (
-    <Box as='section'>
+    <Box as='section' bg='#EEEEEE'>
       <Container maxW='container.lg' pt={24}>
         <Stack
           align={'center'}
@@ -23,7 +23,7 @@ export const HeroBanner = () => {
               />
             }
           </Stack>
-          <Stack flex={1} spacing={{ base: 10, md: 20 }}>
+          {/* <Stack flex={1} spacing={{ base: 10, md: 20 }}>
             {
               <ColorModeImage
                 lightSrc={'/assets/KKCD_Payoff_zww.png'}
@@ -33,7 +33,7 @@ export const HeroBanner = () => {
               />
             }
 
-          </Stack>
+          </Stack> */}
         </Stack>
         <Text py={5}>
           <Text as='span' textStyle={'paragraphBlock'}>
@@ -42,7 +42,7 @@ export const HeroBanner = () => {
           <Text as='span' textStyle={'paragraphBlock'}>
             De kracht die kinderen hebben als ze zich uiten in muziek en kunst is uniek. De Kinder Klimaat Concert Dag geeft 1 dag in het jaar kinderen en jongeren een platform om op hun manier op te komen voor hun toekomst, door muziek te maken, te tekenen, te dansen en te dichten.
           </Text>
-          <Text as='span' textStyle={'paragraphBlock'}>
+          <Text as='span' textStyle={'paragraphBlock'} fontStyle='italic'>
             Positief en hoopvol.
           </Text>
           <Text as='span' textStyle={'paragraphBlock'}>

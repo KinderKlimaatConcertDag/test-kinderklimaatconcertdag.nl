@@ -14,22 +14,43 @@ import { Heading, Image } from '@/components/mdx'
 
 export const Concert = () => {
   return (
-    <Box id={'concert'} as='section' scrollMarginTop={'100px'}>
+    <Box id={'concert'} as='section' scrollMarginTop={'100px'} bg='#72a9c9'>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl'>
           Editie 2026
         </Heading>
         <Text>
-          <Text as='span' textStyle={'paragraphBlock'}>
-            De eerste editie van de Kinder Klimaat Concert Dag vindt plaats in Utrecht op zondag 27 september 2026 in TivoliVredenburg.
+          <Text as='span' textStyle={'paragraphBlock'} fontWeight='bold'
+            ml={0}
+            bg='#cd5b1c'
+            p={3}
+            borderRadius='md'
+          >
+            De eerste Kinder Klimaat Concert Dag is op zondag 27 september 2026 in TivoliVredenburg in Utrecht.
           </Text>
+        </Text>
+        <Box py={5} position='relative'>
+          <Image
+            src='/posters/KKCD_Posters_A4_10.jpg'
+            alt='Kinder Klimaat Concert Dag poster'
+            position={{ base: 'static', md: 'absolute' }}
+            top={0}
+            right={0}
+            w={{ base: '100%', md: '500px' }}
+            maxW={{ base: '320px', md: '500px' }}
+            mb={{ base: 4, md: 0 }}
+            borderRadius='lg'
+            boxShadow='md'
+          />
+          <Text>
+          <Text pr={{ base: 0, md: '530px' }}>
           <Text as='span' textStyle={'paragraphBlock'}>
             Tijdens de avondvoorstelling  “Behoud onze seizoenen!” zorgen muziek, dans en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen wisselen elkaar af.
           </Text>
           <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
             <ListItem>
               <ListIcon as={ChevronRightIcon} color='#cd5b1c' />
-              LOCATIE: Hertz zaal Vredenburg, Utrecht | AANVANG: NTB
+              Locatie: Hertz zaal Vredenburg, Utrecht | Aanvang: NTB
             </ListItem>
           </UnorderedList>
           <Text as='span' textStyle={'paragraphBlock'}>
@@ -38,7 +59,7 @@ export const Concert = () => {
           <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
             <ListItem>
               <ListIcon as={ChevronRightIcon} color='#cd5b1c' />
-              LOCATIE: Punt foyer TivoliVredenburg, Utrecht | AANVANG: NTB
+              Locatie: Punt foyer TivoliVredenburg, Utrecht | Aanvang: NTB
             </ListItem>
           </UnorderedList>
           <Text as='span' textStyle={'paragraphBlock'}>
@@ -54,16 +75,7 @@ export const Concert = () => {
             Voor de voorstelling kunnen kinderen hùn vragen over het klimaat stellen aan een klimaat panel van wetenschappers van de Universiteit Utrecht.
           </Text>
         </Text>
-
-        <Box mt={8} w='100%'>
-          <Image
-            src='/posters/KKCD_Posters_A4_10.jpg'
-            alt='Kinder Klimaat Concert Dag poster'
-            w='100%'
-            maxW='100%'
-            borderRadius='lg'
-            boxShadow='md'
-          />
+        </Text>
         </Box>
 
       </Container>

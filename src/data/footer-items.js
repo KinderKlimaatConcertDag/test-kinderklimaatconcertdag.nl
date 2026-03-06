@@ -17,16 +17,20 @@ export const footerItems = {
 
   stichting: [
     {
-      label: 'Bestuur',
+      label: 'Stichting',
       href: 'stichting',
     },
     {
-      label: 'Oprichters',
-      href: 'oprichters',
+      label: 'Team',
+      href: 'team',
     },
     {
       label: 'Steun ons',
       href: '/#funders',
+    },
+    {
+      label: 'Contact',
+      href: 'contact',
     },
   ],
 }

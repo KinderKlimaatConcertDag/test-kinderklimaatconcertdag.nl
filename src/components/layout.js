@@ -7,9 +7,6 @@ import Head from 'next/head'
 import ReactGA from 'react-ga4'
 import { useEffect } from 'react'
 
-// Google Analytics
-ReactGA.initialize('G-62W42QPRQC')
-
 export const Layout = ({
   title,
   description,
@@ -20,6 +17,7 @@ export const Layout = ({
 }) => {
   // Track page views
   useEffect(() => {
+    ReactGA.initialize('G-62W42QPRQC')
     ReactGA.send({ hitType: 'pageview' })
   }, [])
 
