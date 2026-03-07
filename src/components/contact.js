@@ -5,7 +5,7 @@ import { Heading } from '@/components/mdx'
 
 export const Contact = () => {
   return (
-    <Box id={'contact'} as='section' scrollMarginTop={'100px'}>
+    <Box id={'contact'} as='section' scrollMarginTop={'80px'}>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl' textAlign={'center'} color='#6f73b2'>
           Contactgegevens

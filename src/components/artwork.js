@@ -11,7 +11,7 @@ const posterImages = [
 
 export const Artwork = () => {
   return (
-    <Box id={'artwork'} as='section' scrollMarginTop={'100px'} bg='#62afa8'>
+    <Box id={'artwork'} as='section' scrollMarginTop={'80px'} bg='#62afa8'>
       <Container maxW='container.lg' pt={10} pb={10}>
         <Heading as='h1' size='2xl' textAlign={'center'} mt={0}>
           Artwork

@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Media= () => {
   return (
-    <Box id={'media'} as='section' scrollMarginTop={'100px'} bg='#eeeeee'>
+    <Box id={'media'} as='section' scrollMarginTop={'80px'} bg='#eeeeee'>
       <Container maxW='container.lg'  pt={10} pb={10}>
         <Heading as='h1' size='2xl' textAlign={'center'}>
           Media

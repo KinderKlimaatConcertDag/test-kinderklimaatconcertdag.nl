@@ -14,7 +14,7 @@ import { Heading, Image } from '@/components/mdx'
 
 export const Concert = () => {
   return (
-    <Box id={'concert'} as='section' scrollMarginTop={'100px'} bg='#72a9c9'>
+    <Box id={'concert'} as='section' scrollMarginTop={'80px'} bg='#72a9c9'>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl' mt={0} pt={10} textAlign='center'>
           Editie 2026

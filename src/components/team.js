@@ -14,7 +14,7 @@ import { Heading } from '@/components/mdx'
 
 export const Team = () => {
   return (
-    <Box id={'team'} as='section' scrollMarginTop={'100px'}  bg='#EEEEEE'>
+    <Box id={'team'} as='section' scrollMarginTop={'80px'}  bg='#EEEEEE'>
       <Container maxW='container.lg' pt={10} pb={10}>
         <Heading as='h1' size='2xl' textAlign={'center'}>
           Team

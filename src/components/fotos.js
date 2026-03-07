@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Fotos= () => {
   return (
-    <Box id={'fotos'} as='section' py={10} scrollMarginTop={'100px'}>
+    <Box id={'fotos'} as='section' py={10} scrollMarginTop={'80px'}>
       <Container maxW='container.lg'>
         <Heading as='h1' size='2xl' textAlign={'center'} mt={0}>
           Foto's

@@ -3,7 +3,7 @@ import { Box, Heading as ChakraHeading } from '@chakra-ui/react'
 export const Heading = (props) => (
   <ChakraHeading
     css={{
-      scrollMarginTop: '100px',
+      scrollMarginTop: '80px',
       scrollSnapMargin: '100px',
       '&[id]': {
         pointerEvents: 'none',
