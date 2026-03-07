@@ -4,9 +4,9 @@ import React from 'react'
 
 export const Media= () => {
   return (
-    <Box id={'media'} as='section' my={10} scrollMarginTop={'100px'}>
-      <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl'>
+    <Box id={'media'} as='section' scrollMarginTop={'100px'} bg='#eeeeee'>
+      <Container maxW='container.lg'  pt={10} pb={10}>
+        <Heading as='h1' size='2xl' textAlign={'center'}>
           Media
         </Heading>
         <Box
@@ -27,16 +27,6 @@ export const Media= () => {
           ></iframe>
         </Box>
 
-        <Box mt={8} w='100%'>
-          <Image
-            src='/posters/KKCD_Posters_A4_1.jpg'
-            alt='Kinder Klimaat Concert Dag poster'
-            w='100%'
-            maxW='100%'
-            borderRadius='lg'
-            boxShadow='md'
-          />
-        </Box>
       </Container>
     </Box>
   )

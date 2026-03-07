@@ -11,7 +11,11 @@ export const footerItems = {
     },
     {
       label: 'Media',
-      href: '/#media',
+      href: '/resources#media',
+    },
+    {
+      label: 'Artwork',
+      href: '/resources#artwork',
     },
   ],
 

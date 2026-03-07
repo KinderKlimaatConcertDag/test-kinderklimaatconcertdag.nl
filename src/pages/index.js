@@ -1,7 +1,6 @@
 import { Concert, HeroBanner, HoeHetBegon, Partners } from '@/components'
 
 import { Layout } from '@/components/layout'
-import { Media } from '@/components/media'
 
 export default function IndexPage() {
   return (
@@ -16,7 +15,6 @@ export default function IndexPage() {
       <HeroBanner />
       <Concert />
       <HoeHetBegon />
-      {/* <Media /> */}
       <Partners />
     </Layout>
   )
