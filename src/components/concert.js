@@ -16,15 +16,19 @@ export const Concert = () => {
   return (
     <Box id={'concert'} as='section' scrollMarginTop={'100px'} bg='#72a9c9'>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl'>
+        <Heading as='h1' size='2xl' mt={0} pt={10} textAlign='center'>
           Editie 2026
         </Heading>
         <Text>
-          <Text as='span' textStyle={'paragraphBlock'} fontWeight='bold'
+          <Text as='span'
+            textStyle={'paragraphBlock'}
+            fontWeight='bold'
+            fontSize='xl'
             ml={0}
             bg='#cd5b1c'
             p={3}
             borderRadius='md'
+            textAlign='center'
           >
             De eerste Kinder Klimaat Concert Dag is op zondag 27 september 2026 in TivoliVredenburg in Utrecht.
           </Text>

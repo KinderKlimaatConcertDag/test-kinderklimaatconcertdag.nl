@@ -18,7 +18,7 @@ export const HoeHetBegon = () => {
   return (
     <Box id={'hoehetbegon'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='2xl' color='#62afa8'>
+        <Heading as='h1' size='2xl' mt={0} pt={10} textAlign='center' color='#62afa8'>
           Hoe het begon
         </Heading>
         <Text>
@@ -39,8 +39,8 @@ export const HoeHetBegon = () => {
           </Text>
         </Text>
 
-        <Heading as='h2' color='#62afa8'>
-            Mijlpalen:
+        <Heading as='h2'  textAlign='center' color='#62afa8'>
+            Mijlpalen
         </Heading>
         <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
           <ListItem>

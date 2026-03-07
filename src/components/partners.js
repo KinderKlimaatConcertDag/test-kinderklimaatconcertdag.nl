@@ -19,7 +19,7 @@ export const Partners = () => {
   return (
     <Box id={'partners'} as='section' scrollMarginTop={'100px'}>
       <Container maxW='container.lg'>
-        <Heading as='h1' size='xl' textAlign='center'>
+        <Heading as='h1' size='xl' textAlign='center' color='#6f73b2'>
           Partners
         </Heading>
 

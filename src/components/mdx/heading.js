@@ -17,9 +17,9 @@ export const Heading = (props) => (
       },
       '&[id]:hover a': { opacity: 1 },
     }}
-    {...props}
     mb='1em'
     mt='2em'
+    {...props}
   >
     <Box pointerEvents='auto'>
       {props.children}
