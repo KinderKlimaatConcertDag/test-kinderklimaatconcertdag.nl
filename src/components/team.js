@@ -142,7 +142,7 @@ export const Team = () => {
                   Erik van Sebille
               </Heading>
               <Text as='span' textStyle={'paragraphBlock'}>
-                Erik is hoogleraar oceanografie en wetenschapscommunicatie aan de Universiteit Utrecht. Hij is gespecialiseerd in oceaanstromingen en de verspreiding van microplastics in de oceanen. Hij heeft een grote passie voor het klimaat en is een veelgevraagd spreker over klimaatverandering en de rol van de oceanen.
+                Erik is hoogleraar oceanografie en wetenschapscommunicatie aan de <Link isExternal href='https://www.uu.nl/staff/EvanSebille'>Universiteit Utrecht</Link>. Hij is gespecialiseerd in oceaanstromingen en de verspreiding van microplastics in de oceanen. Hij heeft een grote passie voor het klimaat en is een veelgevraagd spreker over klimaatverandering en de rol van de oceanen.
               </Text>
             </Box>
           </Box>
