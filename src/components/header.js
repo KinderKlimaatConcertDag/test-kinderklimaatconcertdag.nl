@@ -94,13 +94,13 @@ export const Header = () => {
               navItems={navItems}
               display={{ base: 'none', md: 'flex' }}
             />
-            <IconButton
+            {/* <IconButton
               aria-label={`Switch to ${colorMode === 'light' ? 'dark' : 'light'} mode`}
               icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
               onClick={toggleColorMode}
               variant={'ghost'}
               size={'sm'}
-            />
+            /> */}
           </Stack>
         </Container>
       </Flex>
