@@ -9,7 +9,6 @@ import {
   PopoverTrigger,
   Stack,
   Text,
-  useColorModeValue,
 } from '@chakra-ui/react'
 
 export const DesktopNav = ({ navItems, ...props }) => {
@@ -27,11 +26,11 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 fontWeight={'bold'}
                 whiteSpace={'nowrap'}
                 flexShrink={0}
-                color={useColorModeValue('black', 'white')}
+                color='black'
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('blackAlpha.100', 'whiteAlpha.200'),
-                  color: useColorModeValue('black', 'white'),
+                  bg: 'blackAlpha.100',
+                  color: 'black',
                 }}
                 borderRadius='md'
               >
@@ -44,7 +43,7 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 border={0}
                 boxShadow={'xl'}
                 // eslint-disable-next-line react-hooks/rules-of-hooks
-                bg={useColorModeValue('white', 'gray.800')}
+                bg={'white'}
                 p={4}
                 rounded={'xl'}
                 minW={'sm'}
@@ -71,16 +70,16 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
       display={'block'}
       p={2}
       rounded={'md'}
-      _hover={{ bg: useColorModeValue('blue.50', 'gray.900') }}
+      _hover={{ bg: 'blue.50' }}
     >
       <Stack direction={'row'} align={'center'}>
         <Box>
           <Text
             transition={'all .3s ease'}
-            _groupHover={{ color: useColorModeValue('black', 'white') }}
+            _groupHover={{ color: 'black' }}
             fontFamily={'heading'}
             fontWeight={500}
-            color={useColorModeValue('black', 'white')}
+            color='black'
           >
             {label}
           </Text>
@@ -95,7 +94,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           align={'center'}
           flex={1}
         >
-          <Icon color={useColorModeValue('black', 'white')} w={5} h={5} as={ChevronRightIcon} />
+          <Icon color='black' w={5} h={5} as={ChevronRightIcon} />
         </Flex>
       </Stack>
     </Link>

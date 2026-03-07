@@ -10,18 +10,14 @@ import {
   IconButton,
   Image,
   Stack,
-  useColorMode,
-  useColorModeValue,
   useDisclosure,
 } from '@chakra-ui/react'
-import { ColorModeImage } from '@/components/ColorModeImage'
 import React from 'react'
 
 export const Header = () => {
   const navItems = React.useMemo(() => menuItems, [])
 
   const { isOpen, onToggle } = useDisclosure()
-  const { colorMode, toggleColorMode } = useColorMode()
 
   return (
     <Box>
@@ -74,10 +70,9 @@ export const Header = () => {
               alignItems={'center'}
               spacing={{ base: 2, sm: 4 }}
             >
-              <ColorModeImage
+              <Image
                 w={20}
-                lightSrc={'/assets/KKCD_Logo_rgb_blauw.png'}
-                darkSrc={'/assets/KKCD_Logo_diap.png'}
+                src={'/assets/KKCD_Logo_rgb_blauw.png'}
                 alt={'KKCD logo'}
               />
             </Stack>
@@ -94,13 +89,6 @@ export const Header = () => {
               navItems={navItems}
               display={{ base: 'none', md: 'flex' }}
             />
-            {/* <IconButton
-              aria-label={`Switch to ${colorMode === 'light' ? 'dark' : 'light'} mode`}
-              icon={colorMode === 'light' ? <MoonIcon /> : <SunIcon />}
-              onClick={toggleColorMode}
-              variant={'ghost'}
-              size={'sm'}
-            /> */}
           </Stack>
         </Container>
       </Flex>

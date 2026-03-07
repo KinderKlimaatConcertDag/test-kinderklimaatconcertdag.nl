@@ -5,7 +5,6 @@ import {
   Icon,
   Stack,
   Text,
-  useColorModeValue,
   useDisclosure,
 } from '@chakra-ui/react'
 
@@ -33,21 +32,21 @@ const MobileNavItem = ({ href, children, label }) => {
         borderRadius='md'
         _hover={{
           textDecoration: 'none',
-          bg: useColorModeValue('blackAlpha.100', 'whiteAlpha.200'),
+          bg: 'blackAlpha.100',
         }}
       >
         <Text
           fontFamily={'heading'}
           fontWeight={600}
           whiteSpace={'nowrap'}
-          color={useColorModeValue('black', 'white')}
+          color={'black'}
         >
           {label}
         </Text>
         {children && (
           <Icon
             as={ChevronDownIcon}
-            color={useColorModeValue('black', 'white')}
+            color={'black'}
             transition={'all .25s ease-in-out'}
             transform={isOpen ? 'rotate(180deg)' : ''}
             w={6}
@@ -62,7 +61,7 @@ const MobileNavItem = ({ href, children, label }) => {
           pl={4}
           borderLeft={1}
           borderStyle={'solid'}
-          borderColor={useColorModeValue('gray.200', 'gray.700')}
+          borderColor={'gray.200'}
           align={'start'}
         >
           {' '}
@@ -76,10 +75,10 @@ const MobileNavItem = ({ href, children, label }) => {
                 borderRadius='md'
                 fontFamily={'heading'}
                 whiteSpace={'nowrap'}
-                color={useColorModeValue('black', 'white')}
+                color={'black'}
                 _hover={{
                   textDecoration: 'none',
-                  bg: useColorModeValue('blackAlpha.100', 'whiteAlpha.200'),
+                  bg: 'blackAlpha.100',
                 }}
               >
                 {child.label}
@@ -106,11 +105,7 @@ export const MobileNav = ({ navItems, isOpen }) => {
       minH={'calc(100vh - 60px)'}
       css={{
         backdropFilter: 'saturate(180%) blur(5px)',
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        backgroundColor: useColorModeValue(
-          'rgba(255, 255, 255, 0.8)',
-          'rgba(26, 32, 44, 0.8)',
-        ),
+        backgroundColor: 'rgba(255, 255, 255, 0.8)',
       }}
     >
       {navItems.map((navItem) => (

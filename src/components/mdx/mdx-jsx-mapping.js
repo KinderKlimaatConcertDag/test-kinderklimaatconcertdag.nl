@@ -1,9 +1,7 @@
 import { Code } from '@/components/mdx/code'
 import { Heading } from '@/components/mdx/heading'
-import { Hr } from '@/components/mdx/hr'
 import { Image } from '@/components/mdx/image'
 import { Link } from '@/components/mdx/link'
-import { Quote } from '@/components/mdx/quote'
 import { Box, Text } from '@chakra-ui/react'
 
 export const mapping = {
@@ -15,7 +13,6 @@ export const mapping = {
   h6: (props) => <Heading as='h6' size='xs' fontWeight='bold' {...props} />,
   code: (props) => <Code {...props} />,
   br: (props) => <Box height='24px' {...props} />,
-  hr: (props) => <Hr {...props} />,
   a: (props) => <Link color={'blue.400'} {...props} />,
   p: (props) => <Text as='p' my={4} lineHeight='tall' {...props} />,
   ul: (props) => <Box as='ul' pt={2} pl={4} ml={2} {...props} />,

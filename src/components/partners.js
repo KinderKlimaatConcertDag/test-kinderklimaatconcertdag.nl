@@ -8,7 +8,6 @@ import {
   GridItem,
   Tooltip,
 } from '@chakra-ui/react'
-import { ColorModeImage } from '@/components/ColorModeImage'
 import React from 'react'
 import { Partners as data } from '@/data/partners'
 
@@ -52,11 +51,10 @@ export const Partners = () => {
                   pr={{ base: 0, md: 4 }}
                   pb={{ base: 4, md: 0 }}
                 >
-                  <ColorModeImage
-                    lightSrc={partner.logo_light}
-                    darkSrc={partner.logo_dark}
-                    maxH={20}
+                  <Image
+                    src={partner.logo_light}
                     alt={partner.name}
+                    maxH={20}
                   />
                 </GridItem>
               </Tooltip>

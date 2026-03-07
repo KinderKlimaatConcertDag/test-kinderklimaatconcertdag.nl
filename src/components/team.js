@@ -8,7 +8,6 @@ import {
   GridItem,
   Tooltip,
 } from '@chakra-ui/react'
-import { ColorModeImage } from '@/components/ColorModeImage'
 import React from 'react'
 
 import { Heading } from '@/components/mdx'

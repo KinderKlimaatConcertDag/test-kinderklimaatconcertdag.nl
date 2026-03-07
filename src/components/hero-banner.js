@@ -1,6 +1,5 @@
 import { Box, Button, Container, Heading, Stack, Text } from '@chakra-ui/react'
 
-import { ColorModeImage } from '@/components/ColorModeImage'
 import { Image, Link } from '@/components/mdx'
 
 export const HeroBanner = () => {
@@ -15,25 +14,13 @@ export const HeroBanner = () => {
         >
           <Stack flex={1} spacing={{ base: 10, md: 20 }}>
             {
-              <ColorModeImage
-                lightSrc={'/assets/KKCD_Logo_rgb_blauw.png'}
-                darkSrc={'/assets/KKCD_Logo_diap.png'}
+              <Image
+                src={'/assets/KKCD_Logo_rgb_blauw.png'}
                 alt='Kinder Klimaat Concert Dag'
                 objectFit='contain'
               />
             }
           </Stack>
-          {/* <Stack flex={1} spacing={{ base: 10, md: 20 }}>
-            {
-              <ColorModeImage
-                lightSrc={'/assets/KKCD_Payoff_zww.png'}
-                darkSrc={'/assets/KKCD_Payoff_diap.png'}
-                alt='Luister voor onze toekomst'
-                objectFit='contain'
-              />
-            }
-
-          </Stack> */}
         </Stack>
         <Text py={5}>
           <Text as='span' textStyle={'paragraphBlock'}>
