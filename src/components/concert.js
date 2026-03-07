@@ -34,20 +34,8 @@ export const Concert = () => {
           </Text>
         </Text>
         <Box py={5} position='relative'>
-          <Image
-            src='/posters/KKCD_Posters_A4_10.jpg'
-            alt='Kinder Klimaat Concert Dag poster'
-            position={{ base: 'static', md: 'absolute' }}
-            top={0}
-            right={0}
-            w={{ base: '100%', md: '500px' }}
-            maxW={{ base: '320px', md: '500px' }}
-            mb={{ base: 4, md: 0 }}
-            borderRadius='lg'
-            boxShadow='md'
-          />
           <Box>
-          <Box pr={{ base: 0, md: '530px' }}>
+          <Box pr={{ base: 0, md: '430px' }}>
           <Text as='span' textStyle={'paragraphBlock'}>
             Tijdens de avondvoorstelling  “Behoud onze seizoenen!” zorgen muziek, dans en kunst gemaakt door kinderen en jongeren voor een bruisende, ontroerende en virtuoze avond. Je wordt meegenomen van de bittere kou in de winter naar de eerste zonnige lentedag, en van een zwoele zomeravond naar de wervelende herfstwind. Diverse stijlen wisselen elkaar af.
           </Text>
@@ -80,6 +68,19 @@ export const Concert = () => {
           </Text>
         </Box>
         </Box>
+          <Image
+            src='/posters/KKCD_Posters_A4_10.jpg'
+            alt='Kinder Klimaat Concert Dag poster'
+            position={{ base: 'static', md: 'absolute' }}
+            top={0}
+            right={0}
+            w={{ base: '100%', md: '400px' }}
+            maxW={{ md: '400px' }}
+            mt={{ base: 4, md: 0 }}
+            mb={{ base: 0, md: 0 }}
+            borderRadius='lg'
+            boxShadow='md'
+          />
         </Box>
 
       </Container>

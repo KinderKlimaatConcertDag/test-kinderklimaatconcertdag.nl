@@ -43,7 +43,7 @@ export const Partners = () => {
                   alignItems='center'
                   justifyContent='center'
                   borderRight={
-                    index < partners.length - 1 ? '1px solid #ccc' : 'none'
+                    index < partners.length - 1 ? '1px solid #6f73b2' : 'none'
                   }
                   pr={4}
                 >
