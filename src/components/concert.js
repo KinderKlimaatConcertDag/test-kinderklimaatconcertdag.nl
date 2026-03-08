@@ -69,7 +69,9 @@ export const Concert = () => {
         </Box>
         </Box>
           <Image
-            src='/posters/KKCD_Posters_A4_10.jpg'
+            src='/posters/KKCD_Posters_A4_10-md.jpg'
+            srcSet='/posters/KKCD_Posters_A4_10-sm.jpg 424w, /posters/KKCD_Posters_A4_10-md.jpg 636w, /posters/KKCD_Posters_A4_10.jpg 848w'
+            sizes='(max-width: 48em) 100vw, 400px'
             alt='Kinder Klimaat Concert Dag poster'
             position={{ base: 'static', md: 'absolute' }}
             top={0}

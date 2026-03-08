@@ -38,7 +38,9 @@ export const HeroBanner = () => {
         </Text>
         <Box mt={8} w='100%'>
           <Image
-            src='/posters/KKCD_Posters_A4_6.jpg'
+            src='/posters/KKCD_Posters_A4_6-lg.jpg'
+            srcSet='/posters/KKCD_Posters_A4_6-sm.jpg 424w, /posters/KKCD_Posters_A4_6-md.jpg 636w, /posters/KKCD_Posters_A4_6.jpg 848w'
+            sizes='100vw'
             alt='Kinder Klimaat Concert Dag poster'
             w='100%'
             maxW='100%'
