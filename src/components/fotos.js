@@ -11,7 +11,7 @@ export const Fotos= () => {
         </Heading>
         <Box mt={8} w='100%'>
           <Image
-            src='/team/5lhrrQ0EVzWQAgyn.JPG'
+            src='/media/5lhrrQ0EVzWQAgyn.JPG'
             alt='Foto van Donna en Luna van Leeuwen'
             w='100%'
             maxW='100%'

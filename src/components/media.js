@@ -1,4 +1,4 @@
-import { Box, Container, Image } from '@chakra-ui/react'
+import { Box, Container } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 import React from 'react'
 
@@ -11,20 +11,29 @@ export const Media= () => {
         </Heading>
         <Box
           w='100%'
-          h='450px'
+          h={{ base: '305px', md: '560px' }}
           borderRadius='lg'
           overflow='hidden'
           boxShadow='md'
           display='flex'
         >
-          <iframe
+          <Box
+            as='video'
             width='100%'
             height='100%'
-            style={{ display: 'block', border: 0 }}
-            src='https://player.vimeo.com/external/1133141624.m3u8?s=a41df2d90cbb06b09fb6d6584260f4b6399c3fe7&oauth2_token_id=58974900'
-            title='Kinder Klimaat Concert Dag pitch'
-            allowFullScreen
-          ></iframe>
+            display='block'
+            controls
+            playsInline
+            preload='metadata'
+            poster='/media/video-first-frame.jpg'
+            sx={{ objectFit: 'contain', backgroundColor: '#eeeeee' }}
+          >
+            <source
+              src='https://player.vimeo.com/external/1133141624.m3u8?s=a41df2d90cbb06b09fb6d6584260f4b6399c3fe7&oauth2_token_id=58974900'
+              type='application/x-mpegURL'
+            />
+            Your browser does not support HTML5 video.
+          </Box>
         </Box>
 
       </Container>
