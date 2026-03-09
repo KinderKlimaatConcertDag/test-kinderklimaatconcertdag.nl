@@ -6,7 +6,7 @@ export const Bestuur = () => {
     <Box id={'bestuur'} as='section' scrollMarginTop={'80px'}  bg='#EEEEEE'>
       <Container maxW='container.lg' pt={10} pb={10}>
 
-        <Heading as='h1' size='xl' textAlign={'center'}>
+        <Heading as='h1' size='2xl' textAlign={'center'}>
           Het bestuur
         </Heading>
         <Heading as='h2' size='xl' id='henk-van-de-meulen'>
@@ -36,7 +36,7 @@ export const Bestuur = () => {
           Ilonka is bestuurslid van de Stichting Kinder Klimaat Concert Dag.
         </Text>
 
-        <Heading as='h1' size='xl' textAlign={'center'}>
+        <Heading as='h1' size='2xl' textAlign={'center'}>
           Adviseurs
         </Heading>
         <Box py={5}>

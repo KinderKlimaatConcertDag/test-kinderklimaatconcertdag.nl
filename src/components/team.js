@@ -8,9 +8,6 @@ export const Team = () => {
         <Heading as='h1' size='2xl' textAlign={'center'}>
           Team
         </Heading>
-        <Heading as='h1' size='xl' textAlign={'center'}>
-          De oprichters
-        </Heading>
         <Box py={5}>
           <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
             <Image
@@ -23,8 +20,11 @@ export const Team = () => {
               flexShrink={0}
             />
             <Box>
-          <Heading as='h2' size='xl' pb={4} pt={0} mt={0} id='luna-van-leeuwen'>
+          <Heading as='h2' size='xl' pb={0} pt={0} mt={0} id='luna-van-leeuwen'>
             Luna van Leeuwen
+          </Heading>
+          <Heading as='h3' size='l'>
+            Oprichter
           </Heading>
           <Text as='span' textStyle={'paragraphBlock'}>
             De Nederlandse violiste Luna van Leeuwen wordt al vanaf jonge leeftijd geroemd om haar bijzondere zeggingskracht.
@@ -63,8 +63,11 @@ export const Team = () => {
               flexShrink={0}
             />
             <Box>
-          <Heading as='h2' size='xl' pb={4} pt={0} mt={0} id='donna-van-leeuwen'>
+          <Heading as='h2' size='xl' pb={0} pt={0} mt={0} id='donna-van-leeuwen'>
             Donna van Leeuwen
+          </Heading>
+          <Heading as='h3' size='l'>
+            Oprichter
           </Heading>
           <Text as='span' textStyle={'paragraphBlock'}>
             Donna's uitvoering van Bach's cello suite tijdens de Nationale Finale van het Prinses Christina Concours werd door juryvoorzitter Michel Dispa beschreven als “gezond, modern cellospel met een uitgebalanceerd stijlbesef.”
@@ -82,17 +85,20 @@ export const Team = () => {
           </Box>
         </Box>
 
-        <Heading as='h1' size='xl' textAlign={'center'}>
-          Ondersteuners
-        </Heading>
         <Heading as='h2' size='xl' id='maartje-valk'>
             Maartje Valk
+        </Heading>
+        <Heading as='h3' size='l'>
+          Zakelijk advies en fondsenwerving
         </Heading>
         <Text as='span' textStyle={'paragraphBlock'}>
           Maartje geeft zakelijk advies en is verantwoordelijk voor fondsenwerving van de Kinder Klimaat Concert Dag 2026. Daarnaast is ze zakelijk leider van het Bachfestival Dordrecht en programmamanager van het Blockbusterfonds.
         </Text>
         <Heading as='h2' size='xl' id='tim-treffers'>
             Tim Treffers
+        </Heading>
+        <Heading as='h3' size='l'>
+          Communicatie
         </Heading>
         <Text as='span' textStyle={'paragraphBlock'}>
           Tim is verantwoordelijk voor communicatie rond de Kinder Klimaat Concert Dag 2026.
