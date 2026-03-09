@@ -1,4 +1,4 @@
-import { Team, SteunOns, Contact, Stichting } from '@/components'
+import { Team } from '@/components'
 import { Layout } from '@/components/layout'
 
 export default function OverOns() {
@@ -11,9 +11,6 @@ export default function OverOns() {
       }
     >
       <Team />
-      <Stichting />
-      <SteunOns />
-      <Contact />
     </Layout>
   )
 }

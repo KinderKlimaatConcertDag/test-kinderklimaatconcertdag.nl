@@ -17,24 +17,28 @@ export const footerItems = {
       label: 'Artwork',
       href: '/resources#artwork',
     },
-  ],
-
-  stichting: [
     {
       label: 'Team',
       href: '/overons#team',
     },
+  ],
+
+  stichting: [
     {
       label: 'Stichting',
-      href: '/overons#stichting',
+      href: '/stichting#stichting',
+    },
+    {
+      label: 'Bestuur',
+      href: '/stichting#bestuur',
     },
     {
       label: 'Steun ons',
-      href: '/overons#steunons',
+      href: '/stichting#steunons',
     },
     {
       label: 'Contact',
-      href: '/overons#contact',
+      href: '/stichting#contact',
     },
   ],
 }

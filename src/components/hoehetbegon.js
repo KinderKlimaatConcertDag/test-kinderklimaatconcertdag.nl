@@ -49,7 +49,7 @@ export const HoeHetBegon = () => {
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />
-            14 mei 2025: Oprichting van de <Link as={NextLink} href='/overons#stichting'>Stichting Kinder Klimaat Concert Dag</Link>.
+            14 mei 2025: Oprichting van de <Link as={NextLink} href='/stichting'>Stichting Kinder Klimaat Concert Dag</Link>.
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />
@@ -61,7 +61,7 @@ export const HoeHetBegon = () => {
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />
-            December 2025: De organisatie wordt uitgebreid met marketeer Tim Treffers en fondsenwerver Maartje Valk.
+            December 2025: De organisatie wordt uitgebreid met marketeer <Link href='overons#tim-treffers'>Tim Treffers</Link> en fondsenwerver <Link href='overons#maartje-valk'>Maartje Valk</Link>.
           </ListItem>
           <ListItem>
             <ListIcon as={CheckCircleIcon} color='#62afa8' />

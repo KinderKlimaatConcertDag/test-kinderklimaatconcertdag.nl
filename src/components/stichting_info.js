@@ -1,31 +1,18 @@
-import {
-  Box,
-  Container,
-  ListIcon,
-  ListItem,
-  Link,
-  Text,
-  UnorderedList,
-} from '@chakra-ui/react'
-import { CheckCircleIcon } from '@chakra-ui/icons'
+import { Box, Container, Link, Text } from '@chakra-ui/react'
+import { Heading } from '@/components/mdx'
 import React from 'react'
-import NextLink from 'next/link'
 
-import { Heading, Image } from '@/components/mdx'
-import Head from 'next/head'
-
-export const Stichting = () => {
+export const StichtingInfo = () => {
   return (
-    <Box id={'stichting'} as='section' scrollMarginTop={'80px'} bg='#62afa8'>
+    <Box id={'stichting_info'} as='section' scrollMarginTop={'80px'} bg='#62afa8'>
       <Container maxW='container.lg'  pt={10} pb={10}>
         <Heading as='h1' size='2xl' textAlign={'center'}>
           De Stichting Kinder Klimaat Concert Dag
         </Heading>
 
-
         <Box py={4} fontSize={'lg'}>
           <Text>
-            De stichting Kinder Klimaat Concert Dag is door de 	Belastingdienst aangemerkt als 'algemeen nut beogende instelling' (ANBI).
+            De Stichting Kinder Klimaat Concert Dag is door de Belastingdienst aangemerkt als 'algemeen nut beogende instelling' (ANBI).
           </Text>
         </Box>
         <Box py={4} fontSize={'lg'}>
