@@ -8,11 +8,9 @@ import {
   UnorderedList,
 } from '@chakra-ui/react'
 import { CheckCircleIcon } from '@chakra-ui/icons'
-import React from 'react'
 import NextLink from 'next/link'
 
 import { Heading, Image } from '@/components/mdx'
-import Head from 'next/head'
 
 export const HoeHetBegon = () => {
   return (

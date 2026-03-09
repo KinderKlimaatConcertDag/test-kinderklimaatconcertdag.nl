@@ -1,10 +1,4 @@
-import {
-  Box,
-  Container,
-  Text,
-} from '@chakra-ui/react'
-import React from 'react'
-
+import { Box, Container, Text } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 
 export const SteunOns = () => {

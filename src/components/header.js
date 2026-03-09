@@ -1,17 +1,9 @@
-import { DesktopNav } from '@/components/desktop-nav'
-import { Link } from '@/components/mdx'
-import { MobileNav } from '@/components/mobile-nav'
+import { Box, Container, Flex, IconButton, Image, Stack, useDisclosure } from '@chakra-ui/react'
 import { menuItems } from '@/data/menu-items'
-import { CloseIcon, HamburgerIcon, MoonIcon, SunIcon } from '@chakra-ui/icons'
-import {
-  Box,
-  Container,
-  Flex,
-  IconButton,
-  Image,
-  Stack,
-  useDisclosure,
-} from '@chakra-ui/react'
+import { Link } from '@/components/mdx'
+import { DesktopNav } from '@/components/desktop-nav'
+import { MobileNav } from '@/components/mobile-nav'
+import { CloseIcon, HamburgerIcon } from '@chakra-ui/icons'
 import React from 'react'
 
 export const Header = () => {

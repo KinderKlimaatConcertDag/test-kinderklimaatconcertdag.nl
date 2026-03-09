@@ -1,6 +1,5 @@
 import { Box, Container, Link, Text } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
-import React from 'react'
 
 export const StichtingInfo = () => {
   return (

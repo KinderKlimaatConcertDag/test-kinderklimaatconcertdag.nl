@@ -1,6 +1,5 @@
 import { Box, Container, Image } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
-import React from 'react'
 
 export const Fotos= () => {
   return (

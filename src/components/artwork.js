@@ -1,6 +1,5 @@
 import { Box, Container, Grid, Image } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
-import React from 'react'
 
 const posterImages = [
   '/posters/KKCD_Posters_A4_1',

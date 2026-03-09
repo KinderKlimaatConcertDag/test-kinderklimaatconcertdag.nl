@@ -1,6 +1,5 @@
 import { Box, Container, Image, Text, Link } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
-import React from 'react'
 
 export const Bestuur = () => {
   return (

@@ -1,17 +1,7 @@
-import {
-  Box,
-  Container,
-  Image,
-  Text,
-  Link,
-  Grid,
-  GridItem,
-  Tooltip,
-} from '@chakra-ui/react'
-import React from 'react'
-import { Partners as data } from '@/data/partners'
-
+import { Box, Container, Image, Link, Grid, GridItem, Tooltip } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
+import { Partners as data } from '@/data/partners'
+import React from 'react'
 
 export const Partners = () => {
   const partners = React.useMemo(() => data, [])

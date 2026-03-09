@@ -1,15 +1,4 @@
-import {
-  Box,
-  Container,
-  Image,
-  Text,
-  Link,
-  Grid,
-  GridItem,
-  Tooltip,
-} from '@chakra-ui/react'
-import React from 'react'
-
+import { Box, Container, Image, Text } from '@chakra-ui/react'
 import { Heading } from '@/components/mdx'
 
 export const Team = () => {

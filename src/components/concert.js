@@ -1,16 +1,6 @@
-import {
-  Box,
-  Container,
-  Link,
-  Text,
-  UnorderedList,
-  ListItem,
-  ListIcon,
-} from '@chakra-ui/react'
-import { ChevronRightIcon } from '@chakra-ui/icons'
-import React from 'react'
-
+import { Box, Container, Text, UnorderedList, ListItem, ListIcon } from '@chakra-ui/react'
 import { Heading, Image } from '@/components/mdx'
+import { ChevronRightIcon } from '@chakra-ui/icons'
 
 export const Concert = () => {
   return (
