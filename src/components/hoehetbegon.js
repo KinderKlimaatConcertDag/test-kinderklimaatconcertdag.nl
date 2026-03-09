@@ -7,10 +7,10 @@ import {
   Text,
   UnorderedList,
 } from '@chakra-ui/react'
+import { Heading } from '@/components/mdx'
 import { CheckCircleIcon } from '@chakra-ui/icons'
 import NextLink from 'next/link'
 
-import { Heading, Image } from '@/components/mdx'
 
 export const HoeHetBegon = () => {
   return (
