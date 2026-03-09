@@ -23,7 +23,7 @@ export const Concert = () => {
           <Text as='span'
             textStyle={'paragraphBlock'}
             fontWeight='bold'
-            fontSize='xl'
+            fontSize='2xl'
             ml={0}
             bg='#cd5b1c'
             p={3}
@@ -42,7 +42,7 @@ export const Concert = () => {
           <UnorderedList fontSize={'lg'} pb={5} spacing={3} styleType={'none'} ml={0}>
             <ListItem>
               <ListIcon as={ChevronRightIcon} color='#cd5b1c' />
-              Locatie: Hertz zaal Vredenburg, Utrecht | Aanvang: NTB
+              Locatie: Hertz zaal TivoliVredenburg, Utrecht | Aanvang: NTB
             </ListItem>
           </UnorderedList>
           <Text as='span' textStyle={'paragraphBlock'}>
