@@ -74,6 +74,7 @@ const MobileNavItem = ({ href, children, label }) => {
                 px={2}
                 borderRadius='md'
                 fontFamily={'heading'}
+                fontSize={'sm'}
                 whiteSpace={'nowrap'}
                 color={'black'}
                 _hover={{

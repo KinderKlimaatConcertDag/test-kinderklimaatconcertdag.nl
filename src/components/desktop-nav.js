@@ -1,9 +1,6 @@
 import { Link } from '@/components/mdx'
-import { ChevronRightIcon } from '@chakra-ui/icons'
 import {
   Box,
-  Flex,
-  Icon,
   Popover,
   PopoverContent,
   PopoverTrigger,
@@ -43,10 +40,11 @@ export const DesktopNav = ({ navItems, ...props }) => {
                 border={0}
                 boxShadow={'xl'}
                 // eslint-disable-next-line react-hooks/rules-of-hooks
-                bg={'white'}
+                bg={'#eec216'}
                 p={4}
                 rounded={'xl'}
-                minW={'sm'}
+                w='fit-content'
+                minW='unset'
               >
                 <Stack>
                   {navItem.children.map((child) => (
@@ -70,7 +68,10 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
       display={'block'}
       p={2}
       rounded={'md'}
-      _hover={{ bg: 'blue.50' }}
+      _hover={{
+        textDecoration: 'none',
+        bg: 'blackAlpha.100',
+      }}
     >
       <Stack direction={'row'} align={'center'}>
         <Box>
@@ -78,6 +79,7 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
             transition={'all .3s ease'}
             _groupHover={{ color: 'black' }}
             fontFamily={'heading'}
+            fontSize={'sm'}
             fontWeight={500}
             color='black'
           >
@@ -85,17 +87,6 @@ const DesktopSubNav = ({ label, href, subLabel }) => {
           </Text>
           <Text fontSize={'sm'}>{subLabel}</Text>
         </Box>
-        <Flex
-          transition={'all .3s ease'}
-          transform={'translateX(-10px)'}
-          opacity={0}
-          _groupHover={{ opacity: '100%', transform: 'translateX(0)' }}
-          justify={'flex-end'}
-          align={'center'}
-          flex={1}
-        >
-          <Icon color='black' w={5} h={5} as={ChevronRightIcon} />
-        </Flex>
       </Stack>
     </Link>
   )
