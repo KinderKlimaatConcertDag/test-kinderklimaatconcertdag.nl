@@ -26,7 +26,7 @@ export const footerItems = {
   stichting: [
     {
       label: 'Stichting',
-      href: '/stichting#stichting',
+      href: '/stichting#stichting_info',
     },
     {
       label: 'Bestuur',
