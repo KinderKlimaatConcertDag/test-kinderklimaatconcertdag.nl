@@ -79,7 +79,14 @@ export const Footer = () => {
                   key={item.label}
                   href={item.href}
                   fontSize={'sm'}
-                  _hover={{ color: 'black' }}
+                  fontFamily={'Neue Haas Grotesk'}
+                  borderRadius='md'
+                  px={2}
+                  _hover={{
+                    textDecoration: 'none',
+                    bg: 'blackAlpha.100',
+                    color: 'black',
+                  }}
                 >
                   {item.label}
                 </Link>
@@ -94,7 +101,14 @@ export const Footer = () => {
                   key={item.label}
                   href={item.href}
                   fontSize={'sm'}
-                  _hover={{ color: 'black' }}
+                  fontFamily={'Neue Haas Grotesk'}
+                  borderRadius='md'
+                  px={2}
+                  _hover={{
+                    textDecoration: 'none',
+                    bg: 'blackAlpha.100',
+                    color: 'black',
+                  }}
                 >
                   {item.label}
                 </Link>
