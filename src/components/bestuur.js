@@ -9,12 +9,30 @@ export const Bestuur = () => {
         <Heading as='h1' size='2xl' textAlign={'center'}>
           Het bestuur
         </Heading>
-        <Heading as='h2' size='xl' id='henk-van-de-meulen'>
-            Henk van de Meulen
-        </Heading>
-        <Text as='span' textStyle={'paragraphBlock'}>
-          Henk is voorzitter van de Stichting Kinder Klimaat Concert Dag.
-        </Text>
+        <Box py={5}>
+          <Box display='flex' flexDirection={{ base: 'column', md: 'row-reverse' }} alignItems='flex-start' gap={6}>
+            <Image
+              src='/team/HenkvanderMeulen.jpg'
+              alt='Henk van der Meulen'
+              w={{ base: '100%', md: '220px' }}
+              maxW={{ base: '320px', md: '220px' }}
+              borderRadius='lg'
+              boxShadow='md'
+              flexShrink={0}
+            />
+            <Box>
+              <Heading as='h2' size='xl' pt={0} mt={0} id='henk-van-de-meulen'>
+                  Henk van der Meulen
+              </Heading>
+              <Heading as='h3' size='l'>
+                Voorzitter
+              </Heading>
+              <Text as='span' textStyle={'paragraphBlock'}>
+                Henk van der Meulen is componist, was hoofd van afdeling Muziek en Dans van de NPS televisie, directeur van het Koninklijk Conservatorium en Voorzitter van het College van  Bestuur van de Hogeschool der Kunsten Den Haag. Hij is actief als bestuurder, toezichthouder en adviseur in de wereld van kunst en cultuur.
+              </Text>
+            </Box>
+          </Box>
+        </Box>
 
         <Heading as='h2' size='xl' id='erik-de-ruijter-van-steveninck'>
             Erik de Ruijter van Steveninck
