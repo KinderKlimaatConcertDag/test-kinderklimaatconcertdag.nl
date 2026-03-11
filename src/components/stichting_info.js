@@ -25,11 +25,11 @@ export const StichtingInfo = () => {
           </Text>
         </Box>
 
-        <Box py={4}>
+        {/* <Box py={4}>
           <Text fontSize={'lg'}>
-            Vooralsnog ontvangt de directie maximaal 10% van de totale projectbegroting.
+            De beloning van de directie bedraagt maximaal 10% van de totale projectbegroting.
           </Text>
-        </Box>
+        </Box> */}
         <Box py={4}>
           <Text fontSize={'lg'}>
             De bestuursleden en adviseur doen hun werk onbezoldigd. Zij krijgen desgewenst een vergoeding van de door hen gemaakte kosten.
