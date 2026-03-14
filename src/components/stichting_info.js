@@ -11,6 +11,11 @@ export const StichtingInfo = () => {
 
         <Box py={4} fontSize={'lg'}>
           <Text>
+            De Stichting Kinder Klimaat Concert Dag is volledig onafhankelijk en niet verbonden met politieke partijen. Wel werken we samen met culturele partners.
+          </Text>
+        </Box>
+        <Box py={4} fontSize={'lg'}>
+          <Text>
             De Stichting Kinder Klimaat Concert Dag is vanaf de oprichtingsdatum op 14 mei 2025 door de Belastingdienst aangemerkt als 'algemeen nut beogende instelling' (ANBI).
           </Text>
         </Box>
@@ -21,7 +26,7 @@ export const StichtingInfo = () => {
         </Box>
         <Box py={4}>
           <Text fontSize={'lg'}>
-            Beleidsplan: TODO
+            Het beleidsplan van Stichting Kinder Klimaat Concert Dag is <Link isExternal href="/documents/BeleidsplanKKCD-20260126.pdf">hier</Link> te downloaden.
           </Text>
         </Box>
 
